@@ -86,6 +86,7 @@ _Dialog Box Service_ - https://www.filledstacks.com/post/manager-your-flutter-di
 
 _Ux Challenge(only left side using card widget)_ - https://dribbble.com/shots/4486758-Relationship-Coaching-App
 
+
 _in-app notifications and toast messages_ - https://www.filledstacks.com/snippet/in-app-notifications-in-flutter/    
 https://www.filledstacks.com/snippet/easy-toasts-with-ok-toast/
 
@@ -140,3 +141,4 @@ https://financialmodelingprep.com/api/v3/company/profile/AAPL
 **Dart**
 
 _Dart Cheatsheet_ - https://dart.dev/codelabs/dart-cheatsheet
+_convert map to list_ - subjectList = response.map<Subject>((json) => Subject.fromJson(json)).toList();
