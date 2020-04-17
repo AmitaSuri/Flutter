@@ -118,8 +118,20 @@ _UX Challenge(left side animated progress bar)_ - https://lh3.googleusercontent.
 
 _Take a picture using the camera_ - https://flutter.dev/docs/cookbook/plugins/picture-using-camera
 
+_Separating build environments in Flutter apps_ - https://iiro.dev/2018/03/02/separating-build-environments/
 
-**Resources**-
+_Inherited Widgets Explained - Flutter Widgets 101 Ep. 3_ https://www.youtube.com/watch?v=Zbm3hjPjQMk
+
+_Setting up Lint Rules in Dart-Flutter_ 
+
+https://medium.com/podiihq/setting-up-lint-rules-in-dart-flutter-1ebbed0418a6
+
+https://dart-lang.github.io/linter/lints/
+
+
+_Shared preferences Login App_ https://pub.dev/packages/shared_preferences
+
+**Resources**-   
 
 _Mobile Pickers_ - https://material.io/components/pickers/#mobile-pickers
 
@@ -144,7 +156,7 @@ https://reqres.in/
 
 https://financialmodelingprep.com/api/v3/company/profile/AAPL
 
-
+_used for departure bloc pattern in 3 part series video_ - http://www3.septa.org/hackathon/Arrivals/Suburban%20Station/5/
 
 
 
