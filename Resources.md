@@ -150,7 +150,11 @@ _Block Pattern (3 series video)(_ - https://www.youtube.com/watch?v=pdV2GzstYCQ&
 
 _firebase_ - https://github.com/HackerNews/API
 
-_Widget — State — BuildContext — InheritedWidget_ - https://medium.com/flutter-community/widget-state-buildcontext-inheritedwidget-898d671b7956
+_Widget — State — BuildContext — InheritedWidget_ -
+
+https://medium.com/flutter-community/widget-state-buildcontext-inheritedwidget-898d671b7956
+
+https://stackoverflow.com/questions/49100196/what-does-buildcontext-do-in-flutter
 
 **Json Data**
 
