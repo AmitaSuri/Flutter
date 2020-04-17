@@ -14,7 +14,7 @@ _Ux challenge on grid_ - https://lh3.googleusercontent.com/-MYvBdXoTTyQ/XnH8Eoc9
 _ux challenge on grid_ - https://lh3.googleusercontent.com/-Jr5npcZQku8/XnH7kjprZ1I/AAAAAAAAAbo/MneYnj7a03o0d1Y0z3_kgbil8u5wvxFDQCK8BGAsYHg/s0/2020-03-18.png
 
 
-**Fetching data fro internet**
+**Fetching data from internet**
 
 https://flutter.dev/docs/cookbook/networking/fetch-data
 
@@ -149,6 +149,8 @@ _JSON and serialization_ - https://flutter.dev/docs/development/data-and-backend
 _Block Pattern (3 series video)(_ - https://www.youtube.com/watch?v=pdV2GzstYCQ&feature=youtu.be
 
 _firebase_ - https://github.com/HackerNews/API
+
+_Widget — State — BuildContext — InheritedWidget_ - https://medium.com/flutter-community/widget-state-buildcontext-inheritedwidget-898d671b7956
 
 **Json Data**
 
