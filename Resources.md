@@ -4,7 +4,10 @@ _Flutter Layout Cheat Sheet_ - https://medium.com/flutter-community/flutter-layo
 
 _Flutter Layouts Walkthrough: Row, Column, Stack, Expanded, Padding_ - https://www.youtube.com/watch?v=RJEnTRBxaSg
 
-_Building Layouts_ - https://flutter.dev/docs/development/ui/layout/tutorial
+_Building Layouts_ - 
+
+https://flutter.dev/docs/development/ui/layout/tutorial
+
 
 _Ux challenge on grid_ - https://lh3.googleusercontent.com/-MYvBdXoTTyQ/XnH8Eoc9M_I/AAAAAAAAAbw/xsp2g1hbYTgm8Vt5fLtCIzgXP-kf5p_mgCK8BGAsYHg/s0/2020-03-18.png
 
@@ -78,7 +81,14 @@ _Charts_ - https://google.github.io/charts/flutter/gallery.html
 
 _https://www.filledstacks.com/snippet/quick-and-easy-dialogs-in-flutter-with-rf-flutter/
 
-_Quick and Easy Dialogs in Flutter with RfFlutter_ - https://www.filledstacks.com/snippet/quick-and-easy-dialogs-in-flutter-with-rf-flutter/
+_Quick and Easy Dialogs in Flutter with RfFlutter_ - 
+
+https://www.filledstacks.com/snippet/quick-and-easy-dialogs-in-flutter-with-rf-flutter/
+
+https://dribbble.com/shots/6541291-Snowball-website-alive-Dashboard-page
+
+https://dribbble.com/shots/7036184/attachments/36346?mode=media
+
 
 _Better Animation When Keyboard Opens_ - https://www.filledstacks.com/snippet/better-animation-when-keyboard-opens/
 
@@ -106,7 +116,7 @@ _UX Challenge_ - https://dribbble.com/shots/6037533-Finance-Mobile-App-UI
 
 _UX Challenge(left side animated progress bar)_ - https://lh3.googleusercontent.com/-5yWQf8ReaD0/XoyA2EXAmEI/AAAAAAAAA04/yV9s1ZHvYa8CDLIwhd00_UKn5QYGtQJTgCK8BGAsYHg/s0/2020-04-07.png
 
-
+_Take a picture using the camera_ - https://flutter.dev/docs/cookbook/plugins/picture-using-camera
 
 
 **Resources**-
