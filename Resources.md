@@ -13,6 +13,8 @@ _Ux challenge on grid_ - https://lh3.googleusercontent.com/-MYvBdXoTTyQ/XnH8Eoc9
 
 _ux challenge on grid_ - https://lh3.googleusercontent.com/-Jr5npcZQku8/XnH7kjprZ1I/AAAAAAAAAbo/MneYnj7a03o0d1Y0z3_kgbil8u5wvxFDQCK8BGAsYHg/s0/2020-03-18.png
 
+_ux challenge on slider_ - https://lh3.googleusercontent.com/-5yWQf8ReaD0/XoyA2EXAmEI/AAAAAAAAA04/yV9s1ZHvYa8CDLIwhd00_UKn5QYGtQJTgCK8BGAsYHg/s0/2020-04-07.png
+
 
 **Fetching data from internet**
 
@@ -151,6 +153,9 @@ _Block Pattern (3 series video)(_ - https://www.youtube.com/watch?v=pdV2GzstYCQ&
 _firebase_ - https://github.com/HackerNews/API
 
 _Widget — State — BuildContext — InheritedWidget_ -
+
+_Articles_ - https://medium.com/zipper-studios
+
 
 https://medium.com/flutter-community/widget-state-buildcontext-inheritedwidget-898d671b7956
 
