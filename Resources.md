@@ -169,9 +169,128 @@ https://financialmodelingprep.com/api/v3/company/profile/AAPL
 
 _used for departure bloc pattern in 3 part series video_ - http://www3.septa.org/hackathon/Arrivals/Suburban%20Station/5/
 
+https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson - used by Paulo in maps exrthquakes app. Shows 2.5 days earthquakes. can select others also lke per day, etc.
+
 
 
 **Dart**
 
 _Dart Cheatsheet_ - https://dart.dev/codelabs/dart-cheatsheet
 _convert map to list_ - subjectList = response.map<Subject>((json) => Subject.fromJson(json)).toList();
+  
+  
+  
+**Chrome Extensions:**
+
+1. JSON Viewer Awesome -  to show JSON in nice format with chart and tree structure
+2. JSON to Dart Converter - https://in.search.yahoo.com/search?fr=mcafee&type=E210IN714G0&p=json+to+dart - Paste the JSON data, it will convert. Copy it and put in the Model class.
+
+
+**Packages:**
+1. **Geolocator**
+Get the last known location;
+Get the current location of the device;
+Get continuous location updates;
+Check if location services are enabled on the device;
+Calculate the distance (in meters) between two geocoordinates;
+Calculate the bearing between two geocoordinates;
+
+example: converting location to getting address of place
+
+Converting this Into an Address
+We don’t have to stop there though! We can get a Placemark which is essentially an approximation of the user’s current location from the latitude and longitude. Let’s see this in action:
+
+import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
+import 'package:geolocator/geolocator.dart';
+
+class HomePage extends StatefulWidget {
+  @override
+  _HomePageState createState() => _HomePageState();
+}
+
+class _HomePageState extends State<HomePage> {
+  final Geolocator geolocator = Geolocator()..forceAndroidLocationManager;
+
+  Position _currentPosition;
+  String _currentAddress;
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: Text("Location"),
+      ),
+      body: Center(
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: <Widget>[
+            if (_currentPosition != null) Text(_currentAddress),
+            FlatButton(
+              child: Text("Get location"),
+              onPressed: () {
+                _getCurrentLocation();
+              },
+            ),
+          ],
+        ),
+      ),
+    );
+  }
+
+  _getCurrentLocation() {
+    geolocator
+        .getCurrentPosition(desiredAccuracy: LocationAccuracy.best)
+        .then((Position position) {
+      setState(() {
+        _currentPosition = position;
+      });
+
+      _getAddressFromLatLng();
+    }).catchError((e) {
+      print(e);
+    });
+  }
+
+  _getAddressFromLatLng() async {
+    try {
+      List<Placemark> p = await geolocator.placemarkFromCoordinates(
+          _currentPosition.latitude, _currentPosition.longitude);
+
+      Placemark place = p[0];
+
+      setState(() {
+        _currentAddress =
+            "${place.locality}, ${place.postalCode}, ${place.country}";
+      });
+    } catch (e) {
+      print(e);
+    }
+  }
+}
+
+
+2. GeoLocator -- gives more control on current location. Little advanced than location plugin. 
+
+3. Geocoder -  Forward and reverse geocoding. 
+
+example:
+import 'package:geocoder/geocoder.dart';
+
+// From a query
+final query = "1600 Amphiteatre Parkway, Mountain View";
+var addresses = await Geocoder.local.findAddressesFromQuery(query);
+var first = addresses.first;
+print("${first.featureName} : ${first.coordinates}");
+
+// From coordinates
+final coordinates = new Coordinates(1.10, 45.50);
+addresses = await Geocoder.local.findAddressesFromCoordinates(coordinates);
+first = addresses.first;
+print("${first.featureName} : ${first.addressLine}");
+
+This article explains both plugins with map well.
+https://medium.com/swlh/working-with-geolocation-and-geocoding-in-flutter-and-integration-with-maps-16fb0bc35ede
+
+Explains how to get nearbyplaces and plot on map. gets user location also
+https://medium.com/flutter-community/building-places-location-search-with-map-view-using-flutter-1-0-alfian-losari-66cacb3bcc24
