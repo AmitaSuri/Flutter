@@ -134,7 +134,7 @@ https://dart-lang.github.io/linter/lints/
 _Shared preferences Login App_ https://pub.dev/packages/shared_preferences
 
 **Resources**-   
-
+_Creating Custom Progress Indicators:_ https://www.youtube.com/watch?v=TiH0HYBFMMI&pp=wgIECgIIAQ%3D%3D&feature=push-sd&attr_tag=TFGcP0Kx6a9-aL2u%3A6
 _Mobile Pickers_ - https://material.io/components/pickers/#mobile-pickers
 
 _Quick and Easy Dialogs in Flutter with RfFlutter_ - https://www.filledstacks.com/snippet/quick-and-easy-dialogs-in-flutter-with-rf-flutter/
@@ -184,7 +184,8 @@ _convert map to list_ - subjectList = response.map<Subject>((json) => Subject.fr
 
 1. JSON Viewer Awesome -  to show JSON in nice format with chart and tree structure
 2. JSON to Dart Converter - https://in.search.yahoo.com/search?fr=mcafee&type=E210IN714G0&p=json+to+dart - Paste the JSON data, it will convert. Copy it and put in the Model class.
-
+3. https://javiercbk.github.io/json_to_dart/ - to easily convert json to dart models. If this doesn't wok then first parse and correct it in the next one given below.
+4. https://jsonformatter.org/json-parser
 
 **Packages:**
 1. **Geolocator**
