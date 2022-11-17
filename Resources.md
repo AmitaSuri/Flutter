@@ -18,6 +18,11 @@ _ux challenge on grid_ - https://lh3.googleusercontent.com/-Jr5npcZQku8/XnH7kjpr
 
 _ux challenge on slider_ - https://lh3.googleusercontent.com/-5yWQf8ReaD0/XoyA2EXAmEI/AAAAAAAAA04/yV9s1ZHvYa8CDLIwhd00_UKn5QYGtQJTgCK8BGAsYHg/s0/2020-04-07.png
 
+**Charts(my link)**
+https://pub.dev/packages/charts_flutter/example
+https://medium.com/flutter/beautiful-animated-charts-for-flutter-164940780b8c
+
+
 
 **Fetching data from internet**
 
