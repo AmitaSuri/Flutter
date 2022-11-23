@@ -1,6 +1,30 @@
 **https://flutteragency.com/**
 Very good resource
 
+responsiveness
+https://docs.flutter.dev/development/ui/layout/adaptive-responsive
+https://medium.com/flutter-community/developing-for-multiple-screen-sizes-and-orientations-in-flutter-fragments-in-flutter-a4c51b849434
+https://medium.com/flutter-community/build-responsive-uis-in-flutter-fd450bd59158
+
+form
+https://medium.com/flutter-community/realistic-forms-in-flutter-part-1-327929dfd6fd
+
+best practices
+https://itnext.io/flutter-best-practices-part-2-e9e5c79ccb16
+https://somniosoftware.com/post/top-10-flutter-best-practices
+
+
+firebase integration
+https://www.youtube.com/watch?v=u_Lyx8KJWpg
+
+firebase integaration, auth and provider
+https://firebase.google.com/codelabs/firebase-get-to-know-flutter#5
+
+maps
+https://codelabs.developers.google.com/codelabs/google-maps-in-flutter#4
+https://medium.com/flutter-community/exploring-google-maps-in-flutter-8a86d3783d24
+https://medium.com/swlh/working-with-geolocation-and-geocoding-in-flutter-and-integration-with-maps-16fb0bc35ede
+
 **Layouts**
 
 _Flutter Layout Cheat Sheet_ - https://medium.com/flutter-community/flutter-layout-cheat-sheet-5363348d037e
@@ -19,9 +43,15 @@ _ux challenge on grid_ - https://lh3.googleusercontent.com/-Jr5npcZQku8/XnH7kjpr
 _ux challenge on slider_ - https://lh3.googleusercontent.com/-5yWQf8ReaD0/XoyA2EXAmEI/AAAAAAAAA04/yV9s1ZHvYa8CDLIwhd00_UKn5QYGtQJTgCK8BGAsYHg/s0/2020-04-07.png
 
 **Charts(my link)**
+for charts_flutter package
 https://pub.dev/packages/charts_flutter/example
 https://medium.com/flutter/beautiful-animated-charts-for-flutter-164940780b8c
+https://blog.logrocket.com/how-create-flutter-charts-with-charts-flutter/
 
+for fl_chart package
+https://pub.dev/packages/fl_chart
+https://medium.flutterdevs.com/animated-chart-in-flutter-6f28387f398b
+https://blog.logrocket.com/build-beautiful-charts-flutter-fl-chart/
 
 
 **Fetching data from internet**
@@ -168,6 +198,11 @@ _Articles_ - https://medium.com/zipper-studios
 https://medium.com/flutter-community/widget-state-buildcontext-inheritedwidget-898d671b7956
 
 https://stackoverflow.com/questions/49100196/what-does-buildcontext-do-in-flutter
+
+
+Persistence(working with files and jsondata using shared_preferences)
+https://docs.flutter.dev/cookbook/persistence
+
 
 **Json Data**
 
