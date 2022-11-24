@@ -1,6 +1,13 @@
 **https://flutteragency.com/**
 Very good resource
 
+theming
+https://dartling.dev/dynamic-theme-color-material-3-you-flutter
+https://material.io/blog/material-theme-builder
+https://material.io/blog/material-theme-builder
+https://m3.material.io/foundations/design-tokens/overview
+
+
 responsiveness
 https://docs.flutter.dev/cookbook/design/orientation
 https://docs.flutter.dev/development/ui/layout/adaptive-responsive
