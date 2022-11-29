@@ -1,3 +1,8 @@
+Images resources angela
+https://www.vecteezy.com/
+https://icons8.com/
+canva.com/
+
 **https://flutteragency.com/**
 Very good resource
 
