@@ -1,3 +1,23 @@
+**Asynchronously fetching data**
+1. FutureBuilder
+2. StreamBuilder
+https://stackoverflow.com/questions/50844519/flutter-streambuilder-vs-futurebuilder#:~:text=FutureBuilder%20solves%20a%20square%20value,value%20by%201%20every%20second.
+
+https://malshikay.medium.com/futurebuilder-and-streambuilder-in-flutter-e00710c7b529
+
+**Using Cloud Firestore as database. Connecting with Flutter app**
+https://medium.flutterdevs.com/using-firebase-firestore-in-flutter-b0ea2c62bc7
+
+
+**Using Firebase Auth and Cloud Firestore**
+
+**Flutter blog**
+https://medium.flutterdevs.com/
+
+
+**clean architecture**
+https://medium.flutterdevs.com/explore-clean-architecture-in-flutter-3fff83e0f1f2
+
 Images resources angela
 https://www.vecteezy.com/
 https://icons8.com/
