@@ -1,3 +1,24 @@
+**zero to one with flutter**
+https://medium.com/flutter/zero-to-one-with-flutter-43b13fd7b354
+
+**ImagePicker**
+https://blog.logrocket.com/building-an-image-picker-in-flutter/
+slide-deck
+https://www.folkstalk.com/tech/how-to-send-a-photo-using-image-picker-to-my-hp-color-printer-with-example/
+
+
+**My Google API key**
+AIzaSyCFm_Mu7Y36xhEjPr2jkXgwgLpgA7UxLpE
+
+**loading json from assets local file**
+**The rootBundle contains the resources that were packaged with the application when it was built**
+**check here --- https://api.flutter.dev/flutter/services/rootBundle.html**
+return Locations.fromJson(
+    json.decode(
+      await rootBundle.loadString('assets/locations.json'),
+    ) as Map<String, dynamic>,
+  );
+
 **Asynchronously fetching data**
 1. FutureBuilder
 2. StreamBuilder
@@ -26,35 +47,40 @@ canva.com/
 **https://flutteragency.com/**
 Very good resource
 
-theming
+**theming**
 https://dartling.dev/dynamic-theme-color-material-3-you-flutter
 https://material.io/blog/material-theme-builder
 https://material.io/blog/material-theme-builder
 https://m3.material.io/foundations/design-tokens/overview
 
 
-responsiveness
+**responsiveness**
 https://docs.flutter.dev/cookbook/design/orientation
 https://docs.flutter.dev/development/ui/layout/adaptive-responsive
 https://medium.com/flutter-community/developing-for-multiple-screen-sizes-and-orientations-in-flutter-fragments-in-flutter-a4c51b849434
 https://medium.com/flutter-community/build-responsive-uis-in-flutter-fd450bd59158
 
-form
+**form**
 https://medium.com/flutter-community/realistic-forms-in-flutter-part-1-327929dfd6fd
 
-best practices
+**best practices**
 https://itnext.io/flutter-best-practices-part-2-e9e5c79ccb16
 https://somniosoftware.com/post/top-10-flutter-best-practices
 
 
-firebase integration
+**firebase integration**
 https://www.youtube.com/watch?v=u_Lyx8KJWpg
 
-firebase integaration, auth and provider
+**firebase integaration, auth and provider**
 https://firebase.google.com/codelabs/firebase-get-to-know-flutter#5
 
-maps
+**maps**
+https://www.youtube.com/watch?v=RpQLFAFqMlw
+
 https://codelabs.developers.google.com/codelabs/google-maps-in-flutter#4
+**Google offices data that can ve used in this the above codelab on maps**
+https://about.google/static/data/locations.json
+
 https://medium.com/flutter-community/exploring-google-maps-in-flutter-8a86d3783d24
 https://medium.com/swlh/working-with-geolocation-and-geocoding-in-flutter-and-integration-with-maps-16fb0bc35ede
 
@@ -217,7 +243,10 @@ _Dialog Box Service_ - https://www.filledstacks.com/post/manager-your-flutter-di
 _in-app notifications and toast messages_ - https://www.filledstacks.com/snippet/in-app-notifications-in-flutter/    
 https://www.filledstacks.com/snippet/easy-toasts-with-ok-toast/
 
-_JSON and serialization_ - https://flutter.dev/docs/development/data-and-backend/json
+**_JSON and serialization_ **- https://flutter.dev/docs/development/data-and-backend/json
+https://medium.com/flutter/some-options-for-deserializing-json-with-flutter-7481325a4450
+
+
 
 _Block Pattern (3 series video)(_ - https://www.youtube.com/watch?v=pdV2GzstYCQ&feature=youtu.be
 
@@ -238,6 +267,7 @@ https://docs.flutter.dev/cookbook/persistence
 
 
 **Json Data**
+https://about.google/static/data/locations.json // 
 
 https://reqres.in/
 
