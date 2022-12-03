@@ -1,3 +1,9 @@
+**Top 16 Dart Tips and Tricks Every Flutter Developer Should Know**
+****https://www.youtube.com/watch?v=9OxxU4RlCkk****
+
+**Bang Operator...Nullable error**
+https://stackoverflow.com/questions/67667071/understanding-bang-operator-in-dart
+
 **zero to one with flutter**
 https://medium.com/flutter/zero-to-one-with-flutter-43b13fd7b354
 
@@ -6,6 +12,9 @@ https://blog.logrocket.com/building-an-image-picker-in-flutter/
 slide-deck
 https://www.folkstalk.com/tech/how-to-send-a-photo-using-image-picker-to-my-hp-color-printer-with-example/
 
+**camera**
+https://docs.flutter.dev/cookbook/plugins/picture-using-camera
+slide deck
 
 **My Google API key**
 AIzaSyCFm_Mu7Y36xhEjPr2jkXgwgLpgA7UxLpE
@@ -34,6 +43,15 @@ https://medium.flutterdevs.com/using-firebase-firestore-in-flutter-b0ea2c62bc7
 
 **Flutter blog**
 https://medium.flutterdevs.com/
+
+**Coding with Flutter with Firebase Auth with provider- 6 part series by Andrea**
+https://www.youtube.com/watch?v=u_Lyx8KJWpg
+
+**Coding with Flutter with Firebase Auth with provider- 6 part series by AndreaWith stream buider with Andrea**
+https://www.youtube.com/watch?v=nxu4bMpPvCQ&list=PLNnAcB93JKV_NIGSneTazb9yMpILapEjo&index=10
+
+**Unit  Testing andrea**
+https://www.youtube.com/watch?v=h0IbAIHAwnk&list=PLNnAcB93JKV_NIGSneTazb9yMpILapEjo&index=8
 
 
 **clean architecture**
@@ -67,17 +85,28 @@ https://medium.com/flutter-community/realistic-forms-in-flutter-part-1-327929dfd
 https://itnext.io/flutter-best-practices-part-2-e9e5c79ccb16
 https://somniosoftware.com/post/top-10-flutter-best-practices
 
+**push notifications**
+https://www.youtube.com/watch?v=AUU6gbDni4Q
+https://medium.com/comerge/implementing-push-notifications-in-flutter-apps-aef98451e8f1
+
+https://itnext.io/push-notifications-with-firebase-on-flutter-df68cc830c89
+https://blog.logrocket.com/add-flutter-push-notifications-firebase-cloud-messaging/
+
 
 **firebase integration**
 https://www.youtube.com/watch?v=u_Lyx8KJWpg
 
+
 **firebase integaration, auth and provider**
 https://firebase.google.com/codelabs/firebase-get-to-know-flutter#5
+
 
 **maps**
 https://www.youtube.com/watch?v=RpQLFAFqMlw
 
 https://codelabs.developers.google.com/codelabs/google-maps-in-flutter#4
+
+
 **Google offices data that can ve used in this the above codelab on maps**
 https://about.google/static/data/locations.json
 
@@ -102,15 +131,24 @@ _ux challenge on grid_ - https://lh3.googleusercontent.com/-Jr5npcZQku8/XnH7kjpr
 _ux challenge on slider_ - https://lh3.googleusercontent.com/-5yWQf8ReaD0/XoyA2EXAmEI/AAAAAAAAA04/yV9s1ZHvYa8CDLIwhd00_UKn5QYGtQJTgCK8BGAsYHg/s0/2020-04-07.png
 
 **Charts(my link)**
-for charts_flutter package
-https://pub.dev/packages/charts_flutter/example
-https://medium.com/flutter/beautiful-animated-charts-for-flutter-164940780b8c
-https://blog.logrocket.com/how-create-flutter-charts-with-charts-flutter/
+**for charts_flutter package---discontinued**
+<!-- **https://pub.dev/packages/charts_flutter/example
+https://medium.com/flutter/beautiful-animated-charts-for-flutter-164940780b8c**
+https://blog.logrocket.com/how-create-flutter-charts-with-charts-flutter/ -->
 
-for fl_chart package
+**for fl_chart package-// preferred**
 https://pub.dev/packages/fl_chart
 https://medium.flutterdevs.com/animated-chart-in-flutter-6f28387f398b
 https://blog.logrocket.com/build-beautiful-charts-flutter-fl-chart/
+
+**splash screen**
+**https://www.youtube.com/watch?v=dB0dOnc2k10**
+https://medium.com/kick-start-fluttering/flutter-design-your-own-splashscreen-d0612b17db23
+https://blog.logrocket.com/make-splash-screen-flutter/
+https://stackoverflow.com/questions/43879103/adding-a-splash-screen-to-flutter-apps
+
+https://docs.flutter.dev/development/ui/advanced/splash-screen --- leave it
+https://github.com/flutter/samples/tree/main/android_splash_screen/images
 
 
 **Fetching data from internet**
