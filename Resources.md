@@ -16,6 +16,17 @@ https://www.folkstalk.com/tech/how-to-send-a-photo-using-image-picker-to-my-hp-c
 https://docs.flutter.dev/cookbook/plugins/picture-using-camera
 slide deck
 
+**Security**
+https://docs.flutter.dev/security
+https://medium.com/nerd-for-tech/5-steps-to-secure-your-next-flutter-app-549def2428b3
+https://flutteragency.com/secure-your-flutter-application/
+https://www.merixstudio.com/blog/how-secure-flutter-apps-key-insights/
+https://medium.flutterdevs.com/security-testing-in-flutter-633999164847
+https://medium.flutterdevs.com/security-testing-in-flutter-633999164847
+https://medium.flutterdevs.com/security-testing-in-flutter-633999164847
+https://stackoverflow.com/questions/71525025/security-in-flutter-apps
+
+
 **My Google API key**
 AIzaSyCFm_Mu7Y36xhEjPr2jkXgwgLpgA7UxLpE
 
