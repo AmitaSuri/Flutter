@@ -1,3 +1,5 @@
+https://morioh.com/p/8f011858de17
+
 **Top 16 Dart Tips and Tricks Every Flutter Developer Should Know**
 ****https://www.youtube.com/watch?v=9OxxU4RlCkk****
 
@@ -6,6 +8,16 @@ https://stackoverflow.com/questions/67667071/understanding-bang-operator-in-dart
 
 **zero to one with flutter**
 https://medium.com/flutter/zero-to-one-with-flutter-43b13fd7b354
+
+**Lifecycle**
+https://medium.flutterdevs.com/app-lifecycle-in-flutter-c248d894b830(best widget lifecycle)
+https://stackoverflow.com/questions/63873338/what-does-widgetsflutterbinding-ensureinitialized-do
+https://www.bookstack.cn/read/flutterbyexample/aebe8dda4df3319f.md
+https://medium.flutterdevs.com/explore-widget-lifecycle-in-flutter-e36031c697d0
+https://medium.com/knowledgelens/flutter-applifecyclestate-management-3cc745f0170d
+https://levelup.gitconnected.com/lets-utilize-the-flutter-app-lifecycle-388121533fd9
+https://api.flutter.dev/flutter/dart-ui/AppLifecycleState.html (best app lifecycle)
+
 
 **ImagePicker**
 https://blog.logrocket.com/building-an-image-picker-in-flutter/
