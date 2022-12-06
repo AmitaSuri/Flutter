@@ -11,6 +11,7 @@ https://medium.com/flutter/zero-to-one-with-flutter-43b13fd7b354
 
 **Lifecycle**
 https://medium.flutterdevs.com/app-lifecycle-in-flutter-c248d894b830(best widget lifecycle)
+https://www.divami.com/blog/flutter-life-cycle-methods-and-ui-widget-communication
 https://stackoverflow.com/questions/63873338/what-does-widgetsflutterbinding-ensureinitialized-do
 https://www.bookstack.cn/read/flutterbyexample/aebe8dda4df3319f.md
 https://medium.flutterdevs.com/explore-widget-lifecycle-in-flutter-e36031c697d0
