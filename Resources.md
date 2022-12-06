@@ -97,6 +97,7 @@ https://m3.material.io/foundations/design-tokens/overview
 
 
 **responsiveness**
+https://www.filledstacks.com/post/the-best-flutter-responsive-ui-pattern/
 https://docs.flutter.dev/cookbook/design/orientation
 https://docs.flutter.dev/development/ui/layout/adaptive-responsive
 https://medium.com/flutter-community/developing-for-multiple-screen-sizes-and-orientations-in-flutter-fragments-in-flutter-a4c51b849434
