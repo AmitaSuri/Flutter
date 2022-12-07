@@ -19,6 +19,9 @@ https://medium.com/knowledgelens/flutter-applifecyclestate-management-3cc745f017
 https://levelup.gitconnected.com/lets-utilize-the-flutter-app-lifecycle-388121533fd9
 https://api.flutter.dev/flutter/dart-ui/AppLifecycleState.html (best app lifecycle)
 
+**Chat APP **
+https://medium.com/flutter-community/building-a-chat-app-with-flutter-and-firebase-from-scratch-9eaa7f41782e
+
 
 **ImagePicker**
 https://blog.logrocket.com/building-an-image-picker-in-flutter/
@@ -101,6 +104,7 @@ https://www.filledstacks.com/post/the-best-flutter-responsive-ui-pattern/
 https://docs.flutter.dev/cookbook/design/orientation
 https://docs.flutter.dev/development/ui/layout/adaptive-responsive
 https://medium.com/flutter-community/developing-for-multiple-screen-sizes-and-orientations-in-flutter-fragments-in-flutter-a4c51b849434
+https://medium.com/flutter-community/flutter-web-getting-started-with-responsive-design-231511ef15d3
 https://medium.com/flutter-community/build-responsive-uis-in-flutter-fd450bd59158
 
 **form**
@@ -113,18 +117,20 @@ https://somniosoftware.com/post/top-10-flutter-best-practices
 **push notifications**
 https://www.youtube.com/watch?v=AUU6gbDni4Q
 https://medium.com/comerge/implementing-push-notifications-in-flutter-apps-aef98451e8f1
-
+https://fireship.io/lessons/flutter-push-notifications-fcm-guide/
 https://itnext.io/push-notifications-with-firebase-on-flutter-df68cc830c89
 https://blog.logrocket.com/add-flutter-push-notifications-firebase-cloud-messaging/
 
+**Local Notifications**
+https://nitishk72.medium.com/flutter-local-notification-1e43a353877b
 
 **firebase integration**
 https://www.youtube.com/watch?v=u_Lyx8KJWpg
-
+https://www.youtube.com/watch?v=yKKta6ZoyZY
 
 **firebase integaration, auth and provider**
 https://firebase.google.com/codelabs/firebase-get-to-know-flutter#5
-
+https://medium.com/flutter-community/flutter-provider-architecture-with-firebase-full-guide-by-building-a-working-crud-app-4824cec04e59
 
 **maps**
 https://www.youtube.com/watch?v=RpQLFAFqMlw
@@ -167,12 +173,12 @@ https://medium.flutterdevs.com/animated-chart-in-flutter-6f28387f398b
 https://blog.logrocket.com/build-beautiful-charts-flutter-fl-chart/
 
 **splash screen**
+https://docs.flutter.dev/development/ui/advanced/splash-screen 
 **https://www.youtube.com/watch?v=dB0dOnc2k10**
+https://stackoverflow.com/questions/45745448/how-do-i-stretch-an-image-to-fit-the-whole-background-100-height-x-100-width
 https://medium.com/kick-start-fluttering/flutter-design-your-own-splashscreen-d0612b17db23
 https://blog.logrocket.com/make-splash-screen-flutter/
 https://stackoverflow.com/questions/43879103/adding-a-splash-screen-to-flutter-apps
-
-https://docs.flutter.dev/development/ui/advanced/splash-screen --- leave it
 https://github.com/flutter/samples/tree/main/android_splash_screen/images
 
 
