@@ -19,9 +19,25 @@ https://medium.com/knowledgelens/flutter-applifecyclestate-management-3cc745f017
 https://levelup.gitconnected.com/lets-utilize-the-flutter-app-lifecycle-388121533fd9
 https://api.flutter.dev/flutter/dart-ui/AppLifecycleState.html (best app lifecycle)
 
-**Chat APP **
+**Chat APP-- Gave them this at the end. Very nice app using lots of packages**
 https://medium.com/flutter-community/building-a-chat-app-with-flutter-and-firebase-from-scratch-9eaa7f41782e
 
+
+**Adding App Icon** - I did this whole process with them.
+1. Using the package https://pub.dev/packages/flutter_launcher_icons. Docs from Max udemy. When we have the icons. I shared max's icons
+... Can refer to this blog https://medium.com/@psyanite/how-to-add-app-launcher-icons-in-flutter-bd92b0e0873a
+...Can refer to this for also  https://blog.logrocket.com/create-adaptive-icons-flutter-launcher-icons/
+2. Manually creating your own icons and using them from angela udemy course using. Remove the previous ones b4 doing this. take any image from google and create icons using android image asset tool. and then add them.
+
+**Adding the splash screen**
+**doing manually**
+1. official docs - https://docs.flutter.dev/development/ui/advanced/splash-screen?tab=android-splash-alignment-kotlin-tab
+2. https://docs.flutter.dev/development/ui/advanced/splash-screen?tab=android-splash-alignment-kotlin-tab
+**Using package Does not support animation**
+1. package name - https://pub.dev/packages/flutter_native_splash
+2. https://www.youtube.com/watch?v=dB0dOnc2k10
+**Animated logo on splash screen**
+package for animation is also there. we can see blog by log rocket also
 
 **ImagePicker**
 https://blog.logrocket.com/building-an-image-picker-in-flutter/
@@ -115,11 +131,13 @@ https://itnext.io/flutter-best-practices-part-2-e9e5c79ccb16
 https://somniosoftware.com/post/top-10-flutter-best-practices
 
 **push notifications**
-https://www.youtube.com/watch?v=AUU6gbDni4Q
+https://medium.com/@duytq94/flutter-chat-app-extended-push-notification-messages-a26c669f4675
+I gave this..sending notification did not work bcos of API so get obne from firebase and use it. his was not working.....https://www.youtube.com/watch?v=AUU6gbDni4Q
 https://medium.com/comerge/implementing-push-notifications-in-flutter-apps-aef98451e8f1
 https://fireship.io/lessons/flutter-push-notifications-fcm-guide/
 https://itnext.io/push-notifications-with-firebase-on-flutter-df68cc830c89
 https://blog.logrocket.com/add-flutter-push-notifications-firebase-cloud-messaging/
+Same chat app above extended with push notificationhttps://medium.com/@duytq94/flutter-chat-app-extended-push-notification-messages-a26c669f4675
 
 **Local Notifications**
 https://nitishk72.medium.com/flutter-local-notification-1e43a353877b
