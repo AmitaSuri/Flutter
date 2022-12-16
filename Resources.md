@@ -1,4 +1,5 @@
 https://morioh.com/p/8f011858de17
+https://medium.flutterdevs.com/
 
 **Top 16 Dart Tips and Tricks Every Flutter Developer Should Know**
 ****https://www.youtube.com/watch?v=9OxxU4RlCkk****
@@ -85,7 +86,7 @@ https://medium.flutterdevs.com/using-firebase-firestore-in-flutter-b0ea2c62bc7
 **Using Firebase Auth and Cloud Firestore**
 
 **Flutter blog**
-https://medium.flutterdevs.com/
+https://medium.flutterdevs.com/email-authentication-using-firebase-in-flutter-36ca17705c40
 
 **Coding with Flutter with Firebase Auth with provider- 6 part series by Andrea**
 https://www.youtube.com/watch?v=u_Lyx8KJWpg
