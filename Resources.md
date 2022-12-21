@@ -94,6 +94,10 @@ https://www.youtube.com/watch?v=u_Lyx8KJWpg
 **Coding with Flutter with Firebase Auth with provider- 6 part series by AndreaWith stream buider with Andrea**
 https://www.youtube.com/watch?v=nxu4bMpPvCQ&list=PLNnAcB93JKV_NIGSneTazb9yMpILapEjo&index=10
 
+**How to add Firebase to a Flutter app with FlutterFire CLI**
+https://codewithandrea.com/articles/flutter-firebase-flutterfire-cli/
+
+
 **Unit  Testing andrea**
 https://www.youtube.com/watch?v=h0IbAIHAwnk&list=PLNnAcB93JKV_NIGSneTazb9yMpILapEjo&index=8
 
