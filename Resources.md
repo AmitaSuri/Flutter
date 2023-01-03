@@ -1,55 +1,198 @@
-https://morioh.com/p/8f011858de17
-https://medium.flutterdevs.com/
+**COURSE REFERENCES (WHEN TEACHING BY SHARING REFERENCES)**
 
-**Top 16 Dart Tips and Tricks Every Flutter Developer Should Know**
-****https://www.youtube.com/watch?v=9OxxU4RlCkk****
+**---------------------Ux challenge---------------------------------**
+_Ux challenge using following widgets_ - https://dribbble.com/shots/3466120
+  1. Shape of View widget
+   https://pub.dev/packages/shape_of_view#-readme-tab-
+  2. Circle Avatar
+  https://api.flutter.dev/flutter/material/CircleAvatar-class.html
+  3. Stack Widget
+  https://api.flutter.dev/flutter/widgets/Stack-class.html
+  4. Positioned Widget
+  https://api.flutter.dev/flutter/widgets/Positioned-class.html
+  5. Raised Button with rounded radius
+  https://stackoverflow.com/questions/49991444/create-a-rounded-button-button-with-border-radius-in-flutter
+https://dribbble.com/shots/6541291-Snowball-website-alive-Dashboard-page
+https://dribbble.com/shots/7036184/attachments/36346?mode=media
+https://dribbble.com/shots/6191054-Loan-repayment-bill
+https://dribbble.com/shots/6037533-Finance-Mobile-App-UI
+_UX Challenge(left side animated progress bar)_ - https://lh3.googleusercontent.com/-5yWQf8ReaD0/XoyA2EXAmEI/AAAAAAAAA04/yV9s1ZHvYa8CDLIwhd00_UKn5QYGtQJTgCK8BGAsYHg/s0/2020-04-07.png
+_Ux challenge on grid_ - https://lh3.googleusercontent.com/-MYvBdXoTTyQ/XnH8Eoc9M_I/AAAAAAAAAbw/xsp2g1hbYTgm8Vt5fLtCIzgXP-kf5p_mgCK8BGAsYHg/s0/2020-03-18.png
+_ux challenge on grid_ - https://lh3.googleusercontent.com/-Jr5npcZQku8/XnH7kjprZ1I/AAAAAAAAAbo/MneYnj7a03o0d1Y0z3_kgbil8u5wvxFDQCK8BGAsYHg/s0/2020-03-18.png
+_ux challenge on slider_ - https://lh3.googleusercontent.com/-5yWQf8ReaD0/XoyA2EXAmEI/AAAAAAAAA04/yV9s1ZHvYa8CDLIwhd00_UKn5QYGtQJTgCK8BGAsYHg/s0/2020-04-07.png
+_Ux Challenge(only left side using card widget)_ - https://dribbble.com/shots/4486758-Relationship-Coaching-App
 
-**Bang Operator...Nullable error**
-https://stackoverflow.com/questions/67667071/understanding-bang-operator-in-dart
 
-**zero to one with flutter**
-https://medium.com/flutter/zero-to-one-with-flutter-43b13fd7b354
+**-------------------------Widgets and Layouts----------------------------**
+1. https://medium.com/@dev.n/the-complete-flutter-series-article-2-basic-widgets-and-layout-in-flutter-92a4fbd4a3e1
+2. Codelabs - https://flutter.dev/docs/development/ui/layout/tutorial
+3. Slide deck
+4. Flutter Layout Cheat Sheet_ - https://medium.com/flutter-community/flutter-layout-cheat-sheet-5363348d037e
+5. Flutter Layouts Walkthrough: Row, Column, Stack, Expanded, Padding - https://www.youtube.com/watch?v=RJEnTRBxaSg
 
-**Lifecycle**
+
+
+**----------------------Adding Interactivity--------------------** https://flutter.dev/docs/development/ui/interactive
+
+
+
+**---------------How to use images in flutter------------------------**
+https://medium.com/flutter-community/how-to-use-images-in-flutter-to-the-point-5542b4412a53
+
+
+
+**-------------------Stateless and stateful widgets----------------------------**
+1. Slide deck
+2. https://www.divami.com/blog/flutter-life-cycle-methods-and-ui-widget-communication
+
+
+
+**--------------------------Navigation------------------------------**
+1. Slide deck - check different assignments links and see how to go about it. cookbook, pooja bhaumik link, etc.
+2. _Best Practicesin Navigation_ - https://www.filledstacks.com/snippet/clean-navigation-in-flutter-using-generated-routes/
+
+
+
+**--------------------------------Theming-----------------------------------**
+1. Slide deck - m1 and m2 - Old way
+2. m3 - https://dartling.dev/dynamic-theme-color-material-3-you-flutter
+3. docs - https://m3.material.io/foundations/design-tokens/overview
+
+
+
+**-------------------------------Forms----------------------------------------**
+1. https://medium.com/flutter-community/realistic-forms-in-flutter-part-1-327929dfd6fd
+2. Slidedeck
+3. Other references --
+    a. https://flutter.dev/docs/cookbook/forms/validation
+    b. Deven joshi - Textfield in detail - https://medium.com/flutter-community/a-deep-dive-into-flutter-textfields-f0e676aaab7a
+    
+
+
+**------------------------------Lifecycle------------------------------------------**
 https://medium.flutterdevs.com/app-lifecycle-in-flutter-c248d894b830(best widget lifecycle)
-https://www.divami.com/blog/flutter-life-cycle-methods-and-ui-widget-communication
-https://stackoverflow.com/questions/63873338/what-does-widgetsflutterbinding-ensureinitialized-do
-https://www.bookstack.cn/read/flutterbyexample/aebe8dda4df3319f.md
-https://medium.flutterdevs.com/explore-widget-lifecycle-in-flutter-e36031c697d0
-https://medium.com/knowledgelens/flutter-applifecyclestate-management-3cc745f0170d
-https://levelup.gitconnected.com/lets-utilize-the-flutter-app-lifecycle-388121533fd9
-https://api.flutter.dev/flutter/dart-ui/AppLifecycleState.html (best app lifecycle)
-
-**Chat APP-- Gave them this at the end. Very nice app using lots of packages**
-https://medium.com/flutter-community/building-a-chat-app-with-flutter-and-firebase-from-scratch-9eaa7f41782e
+https://levelup.gitconnected.com/lets-utilize-the-flutter-app-lifecycle-388121533fd9(app lifecycle)
+(FOR MY REFERENCE)
+https://www.bookstack.cn/read/flutterbyexample/aebe8dda4df3319f.md (widget lifecycle...good explanation)
+https://api.flutter.dev/flutter/dart-ui/AppLifecycleState.html (app lifecycle---official docs)
 
 
-**Adding App Icon** - I did this whole process with them.
+
+
+**----------------------------------Device Features--------------------------------------------**
+A.**------------------------------ImagePicker-------------------------------**
+    1. https://blog.logrocket.com/building-an-image-picker-in-flutter/
+    2. slide-deck
+B. **-------------------------------------camera------------------------------------**
+    1. https://docs.flutter.dev/cookbook/plugins/picture-using-camera
+    2. slide deck
+C. **-------------------------------------Phone--------------------------------------**
+   1. Slide deck
+D. **---Maps---Do b4 location--Due to null check, APIs have changes--Uber style one is latest--------**   
+1. Deven Joshi - https://medium.com/flutter-community/exploring-google-maps-in-flutter-8a86d3783d24
+2. App where google office data (coordinates) is fetched and plotted on map -  https://codelabs.developers.google.com/codelabs/google-maps-in-flutter#4
+3. For my reference-----Google conference
+    a. Slide deck(May be for intro)
+    b. https://www.youtube.com/watch?v=RpQLFAFqMlw
+    c. Flutter Google Map With Live Location Tracking — Uber Style - https://medium.com/flutter-community/flutter-google-map-with-live-location-tracking-uber-style-12da38771829   
+    d. Explains how to get nearbyplaces and plot on map. gets user location also
+https://medium.com/flutter-community/building-places-location-search-with-map-view-using-flutter-1-0-alfian-losari-66cacb3bcc24
+E. **---------------------------------Location & GeoCoding---------------------------------**
+    1. https://medium.com/swlh/working-with-geolocation-and-geocoding-in-flutter-and-integration-with-maps-16fb0bc35ede
+    
+
+
+**--------------------------------Charts(my link)---------------------------------**
+**for fl_chart package-// preferred**
+https://pub.dev/packages/fl_chart
+https://medium.flutterdevs.com/animated-chart-in-flutter-6f28387f398b
+https://blog.logrocket.com/build-beautiful-charts-flutter-fl-chart/
+**for charts_flutter package---discontinued**
+_Flutter official Charts app_ - https://google.github.io/charts/flutter/gallery.html
+https://pub.dev/packages/charts_flutter/example 
+https://medium.com/flutter/beautiful-animated-charts-for-flutter-164940780b8c
+https://blog.logrocket.com/how-create-flutter-charts-with-charts-flutter/ 
+
+
+
+**------------------------Responsiveness------------------------------------------**
+1. Slide deck
+2. https://www.filledstacks.com/post/the-best-flutter-responsive-ui-pattern/
+https://docs.flutter.dev/cookbook/design/orientation
+**Deven Joshi - Developing for Multiple Screen Sizes and Orientations in Flutter (Fragments in Flutter)** 
+https://medium.com/flutter-community/developing-for-multiple-screen-sizes-and-orientations-in-flutter-fragments-in-flutter-a4c51b849434
+https://medium.com/flutter-community/flutter-web-getting-started-with-responsive-design-231511ef15d3
+https://medium.com/flutter-community/build-responsive-uis-in-flutter-fd450bd59158
+**Very nice article for me explaining adaptive app concepts** https://aloisdeniel.com/#/posts/adaptative-ui
+**Official docs - Adaptive design** - 
+a. https://docs.flutter.dev/development/ui/layout/adaptive-responsive
+b. https://docs.flutter.dev/resources/platform-adaptations
+
+
+
+**--------------Networking-http package-------------**
+1. _Understanding Futures and Streams. Also Futurebuilder, Streambuilder - https://stackoverflow.com/questions/50844519/flutter-streambuilder-vs-futurebuilder#:~:text=FutureBuilder%20solves%20a%20square%20value,value%20by%201%20every%20second.
+2. _JSON and serialization - https://flutter.dev/docs/development/data-and-backend/json
+https://medium.com/flutter/some-options-for-deserializing-json-with-flutter-7481325a4450
+
+_Codelabs
+**Fetching data from internet**
+https://flutter.dev/docs/cookbook/networking/fetch-data
+**Sending Data to the server**
+https://flutter.dev/docs/cookbook/networking/send-data
+
+
+
+
+
+
+For my reference
+Futures and Streams - https://malshikay.medium.com/futurebuilder-and-streambuilder-in-flutter-e00710c7b529
+
+
+
+
+
+
+**---------------------Push Notifications-----------------------------------**
+https://medium.com/@duytq94/flutter-chat-app-extended-push-notification-messages-a26c669f4675
+I gave this..sending notification did not work bcos of API so get obne from firebase and use it. his was not working.....https://www.youtube.com/watch?v=AUU6gbDni4Q
+https://medium.com/comerge/implementing-push-notifications-in-flutter-apps-aef98451e8f1
+https://fireship.io/lessons/flutter-push-notifications-fcm-guide/
+https://itnext.io/push-notifications-with-firebase-on-flutter-df68cc830c89
+https://blog.logrocket.com/add-flutter-push-notifications-firebase-cloud-messaging/
+Same chat app above extended with push notificationhttps://medium.com/@duytq94/flutter-chat-app-extended-push-notification-messages-a26c669f4675
+
+
+**Local Notifications**
+https://nitishk72.medium.com/flutter-local-notification-1e43a353877b
+
+
+
+**----------------Adding App Icon - I did this whole process with them.---------------------------**
+https://blog.logrocket.com/create-adaptive-icons-flutter-launcher-icons/ (using package --do this only as it does it rightly for both android and ios)
+https://medium.com/@psyanite/how-to-add-app-launcher-icons-in-flutter-bd92b0e0873a (manually---don't do)
+(FOR MY REFRENCE)
 1. Using the package https://pub.dev/packages/flutter_launcher_icons. Docs from Max udemy. When we have the icons. I shared max's icons
-... Can refer to this blog https://medium.com/@psyanite/how-to-add-app-launcher-icons-in-flutter-bd92b0e0873a
-...Can refer to this for also  https://blog.logrocket.com/create-adaptive-icons-flutter-launcher-icons/
 2. Manually creating your own icons and using them from angela udemy course using. Remove the previous ones b4 doing this. take any image from google and create icons using android image asset tool. and then add them.
 
-**Adding the splash screen**
-**doing manually**
-1. official docs - https://docs.flutter.dev/development/ui/advanced/splash-screen?tab=android-splash-alignment-kotlin-tab
-2. https://docs.flutter.dev/development/ui/advanced/splash-screen?tab=android-splash-alignment-kotlin-tab
+
+
+**--------------------Adding the splash screen-------------------------**
 **Using package Does not support animation**
 1. package name - https://pub.dev/packages/flutter_native_splash
-2. https://www.youtube.com/watch?v=dB0dOnc2k10
-**Animated logo on splash screen**
-package for animation is also there. we can see blog by log rocket also
+2. https://www.youtube.com/watch?v=dB0dOnc2k10 (do this)
+3. For errors in splash screen, check this link
+https://github.com/flutter/samples/tree/main/android_splash_screen/images
+(FOR MY REFERENCE)
+4. **Animated logo on splash screen** ---do only if taught animation - package for animation is also there. we can see blog by log rocket also -  https://blog.logrocket.com/make-splash-screen-flutter/
+5. **Doing manually -- don't do**
+https://docs.flutter.dev/development/ui/advanced/splash-screen?tab=android-splash-alignment-kotlin-tab (official docs)
+6. **Official docs** - https://docs.flutter.dev/development/ui/advanced/splash-screen 
 
-**ImagePicker**
-https://blog.logrocket.com/building-an-image-picker-in-flutter/
-slide-deck
-https://www.folkstalk.com/tech/how-to-send-a-photo-using-image-picker-to-my-hp-color-printer-with-example/
 
-**camera**
-https://docs.flutter.dev/cookbook/plugins/picture-using-camera
-slide deck
 
-**Security**
+**-----------------------------------Security-------------------------------**
 https://docs.flutter.dev/security
 https://medium.com/nerd-for-tech/5-steps-to-secure-your-next-flutter-app-549def2428b3
 https://flutteragency.com/secure-your-flutter-application/
@@ -60,31 +203,28 @@ https://medium.flutterdevs.com/security-testing-in-flutter-633999164847
 https://stackoverflow.com/questions/71525025/security-in-flutter-apps
 
 
-**My Google API key**
-AIzaSyCFm_Mu7Y36xhEjPr2jkXgwgLpgA7UxLpE
 
-**loading json from assets local file**
-**The rootBundle contains the resources that were packaged with the application when it was built**
-**check here --- https://api.flutter.dev/flutter/services/rootBundle.html**
-return Locations.fromJson(
-    json.decode(
-      await rootBundle.loadString('assets/locations.json'),
-    ) as Map<String, dynamic>,
-  );
 
-**Asynchronously fetching data**
-1. FutureBuilder
-2. StreamBuilder
-https://stackoverflow.com/questions/50844519/flutter-streambuilder-vs-futurebuilder#:~:text=FutureBuilder%20solves%20a%20square%20value,value%20by%201%20every%20second.
 
-https://malshikay.medium.com/futurebuilder-and-streambuilder-in-flutter-e00710c7b529
 
-**Using Cloud Firestore as database. Connecting with Flutter app**
+
+**--------------------------------State Management-------------------------------------------**
+**--------------------------Using Cloud Firestore as database. Connecting with Flutter app----------------**
 https://medium.flutterdevs.com/using-firebase-firestore-in-flutter-b0ea2c62bc7
+
+**firebase integration**
+https://www.youtube.com/watch?v=u_Lyx8KJWpg
+https://www.youtube.com/watch?v=yKKta6ZoyZY
+
+**firebase integaration, auth and provider**
+https://firebase.google.com/codelabs/firebase-get-to-know-flutter#5
+https://medium.com/flutter-community/flutter-provider-architecture-with-firebase-full-guide-by-building-a-working-crud-app-4824cec04e59
+**Chat APP-- Gave them this at the end. Very nice app using lots of pofficial docsages**
+https://medium.com/flutter-community/building-a-chat-app-with-flutter-and-firebase-from-scratch-9eaa7f41782e
 
 
 **Using Firebase Auth and Cloud Firestore**
-
+_firebase_ - https://github.com/HackerNews/API
 **Flutter blog**
 https://medium.flutterdevs.com/email-authentication-using-firebase-in-flutter-36ca17705c40
 
@@ -94,139 +234,43 @@ https://www.youtube.com/watch?v=u_Lyx8KJWpg
 **Coding with Flutter with Firebase Auth with provider- 6 part series by AndreaWith stream buider with Andrea**
 https://www.youtube.com/watch?v=nxu4bMpPvCQ&list=PLNnAcB93JKV_NIGSneTazb9yMpILapEjo&index=10
 
-**How to add Firebase to a Flutter app with FlutterFire CLI**
+**-----How to add Firebase to a Flutter app with FlutterFire CLI**
 https://codewithandrea.com/articles/flutter-firebase-flutterfire-cli/
 
 
-**Unit  Testing andrea**
-https://www.youtube.com/watch?v=h0IbAIHAwnk&list=PLNnAcB93JKV_NIGSneTazb9yMpILapEjo&index=8
+
+**-----------------------------Best practices-----------------------------**
+1. SLide Deck ---  only 2 links
+2. https://somniosoftware.com/post/top-10-flutter-best-practices
+3. Other reference  ---- mostly flutter_lints package rules ----Three part series ----------------------https://itnext.io/flutter-best-practices-part-1-e89467ea4823
 
 
-**clean architecture**
+
+**------------------------clean architecture--------------------------**
 https://medium.flutterdevs.com/explore-clean-architecture-in-flutter-3fff83e0f1f2
 
-Images resources angela
-https://www.vecteezy.com/
-https://icons8.com/
-canva.com/
-
-**https://flutteragency.com/**
-Very good resource
-
-**theming**
-https://dartling.dev/dynamic-theme-color-material-3-you-flutter
-https://material.io/blog/material-theme-builder
-https://material.io/blog/material-theme-builder
-https://m3.material.io/foundations/design-tokens/overview
 
 
-**responsiveness**
-https://www.filledstacks.com/post/the-best-flutter-responsive-ui-pattern/
-https://docs.flutter.dev/cookbook/design/orientation
-https://docs.flutter.dev/development/ui/layout/adaptive-responsive
-https://medium.com/flutter-community/developing-for-multiple-screen-sizes-and-orientations-in-flutter-fragments-in-flutter-a4c51b849434
-https://medium.com/flutter-community/flutter-web-getting-started-with-responsive-design-231511ef15d3
-https://medium.com/flutter-community/build-responsive-uis-in-flutter-fd450bd59158
-
-**form**
-https://medium.com/flutter-community/realistic-forms-in-flutter-part-1-327929dfd6fd
-
-**best practices**
-https://itnext.io/flutter-best-practices-part-2-e9e5c79ccb16
-https://somniosoftware.com/post/top-10-flutter-best-practices
-
-**push notifications**
-https://medium.com/@duytq94/flutter-chat-app-extended-push-notification-messages-a26c669f4675
-I gave this..sending notification did not work bcos of API so get obne from firebase and use it. his was not working.....https://www.youtube.com/watch?v=AUU6gbDni4Q
-https://medium.com/comerge/implementing-push-notifications-in-flutter-apps-aef98451e8f1
-https://fireship.io/lessons/flutter-push-notifications-fcm-guide/
-https://itnext.io/push-notifications-with-firebase-on-flutter-df68cc830c89
-https://blog.logrocket.com/add-flutter-push-notifications-firebase-cloud-messaging/
-Same chat app above extended with push notificationhttps://medium.com/@duytq94/flutter-chat-app-extended-push-notification-messages-a26c669f4675
-
-**Local Notifications**
-https://nitishk72.medium.com/flutter-local-notification-1e43a353877b
-
-**firebase integration**
-https://www.youtube.com/watch?v=u_Lyx8KJWpg
-https://www.youtube.com/watch?v=yKKta6ZoyZY
-
-**firebase integaration, auth and provider**
-https://firebase.google.com/codelabs/firebase-get-to-know-flutter#5
-https://medium.com/flutter-community/flutter-provider-architecture-with-firebase-full-guide-by-building-a-working-crud-app-4824cec04e59
-
-**maps**
-https://www.youtube.com/watch?v=RpQLFAFqMlw
-
-https://codelabs.developers.google.com/codelabs/google-maps-in-flutter#4
+**----------------------Unit  Testing andrea--------------------**
+https://www.youtube.com/watch?v=h0IbAIHAwnk&list=PLNnAcB93JKV_NIGSneTazb9yMpILapEjo&index=8
+**A Deep Dive Into Widget Testing in Flutter: Part II (Finder and WidgetTester)**
+https://medium.com/flutter-community/a-deep-dive-into-widget-testing-in-flutter-part-ii-finder-and-widgettester-f76f98b87a90
 
 
-**Google offices data that can ve used in this the above codelab on maps**
-https://about.google/static/data/locations.json
-
-https://medium.com/flutter-community/exploring-google-maps-in-flutter-8a86d3783d24
-https://medium.com/swlh/working-with-geolocation-and-geocoding-in-flutter-and-integration-with-maps-16fb0bc35ede
-
-**Layouts**
-
-_Flutter Layout Cheat Sheet_ - https://medium.com/flutter-community/flutter-layout-cheat-sheet-5363348d037e
-
-_Flutter Layouts Walkthrough: Row, Column, Stack, Expanded, Padding_ - https://www.youtube.com/watch?v=RJEnTRBxaSg
-
-_Building Layouts_ - 
-
-https://flutter.dev/docs/development/ui/layout/tutorial
 
 
-_Ux challenge on grid_ - https://lh3.googleusercontent.com/-MYvBdXoTTyQ/XnH8Eoc9M_I/AAAAAAAAAbw/xsp2g1hbYTgm8Vt5fLtCIzgXP-kf5p_mgCK8BGAsYHg/s0/2020-03-18.png
-
-_ux challenge on grid_ - https://lh3.googleusercontent.com/-Jr5npcZQku8/XnH7kjprZ1I/AAAAAAAAAbo/MneYnj7a03o0d1Y0z3_kgbil8u5wvxFDQCK8BGAsYHg/s0/2020-03-18.png
-
-_ux challenge on slider_ - https://lh3.googleusercontent.com/-5yWQf8ReaD0/XoyA2EXAmEI/AAAAAAAAA04/yV9s1ZHvYa8CDLIwhd00_UKn5QYGtQJTgCK8BGAsYHg/s0/2020-04-07.png
-
-**Charts(my link)**
-**for charts_flutter package---discontinued**
-<!-- **https://pub.dev/packages/charts_flutter/example
-https://medium.com/flutter/beautiful-animated-charts-for-flutter-164940780b8c**
-https://blog.logrocket.com/how-create-flutter-charts-with-charts-flutter/ -->
-
-**for fl_chart package-// preferred**
-https://pub.dev/packages/fl_chart
-https://medium.flutterdevs.com/animated-chart-in-flutter-6f28387f398b
-https://blog.logrocket.com/build-beautiful-charts-flutter-fl-chart/
-
-**splash screen**
-https://docs.flutter.dev/development/ui/advanced/splash-screen 
-**https://www.youtube.com/watch?v=dB0dOnc2k10**
-https://stackoverflow.com/questions/45745448/how-do-i-stretch-an-image-to-fit-the-whole-background-100-height-x-100-width
-https://medium.com/kick-start-fluttering/flutter-design-your-own-splashscreen-d0612b17db23
-https://blog.logrocket.com/make-splash-screen-flutter/
-https://stackoverflow.com/questions/43879103/adding-a-splash-screen-to-flutter-apps
-https://github.com/flutter/samples/tree/main/android_splash_screen/images
 
 
-**Fetching data from internet**
+**---------------------------------------Extra REFERENCES--------------------------------------------------**
+////////////////////////////////////////////////////////////////////////////////////////////////////////
+**Articles by Deven Joshi** https://medium.com/@dev.n
 
-https://flutter.dev/docs/cookbook/networking/fetch-data
+**ToDo APpp by Deven Joshi** https://medium.com/@dev.n/flutter-challenge-todo-app-concept-bd36107aa291
 
-
-**Sending Data to the server**
-
-https://flutter.dev/docs/cookbook/networking/send-data
-
-
-**Forms**
-
-https://flutter.dev/docs/cookbook/forms/validation
+**Questions and Answers by Deven Joshi** https://medium.com/@dev.n/answering-questions-on-flutter-app-development-6d50eb7223f3
 
 
-**Adding Interactivity** - https://flutter.dev/docs/development/ui/interactive
-
-Adding interactivity to your Flutter app
-
-
-**Bloc Pattern**
-
+**--------------------Bloc Pattern-----------------------**
 _Flutter App: fetching data from the API using the BLoC pattern architecture_ - https://medium.com/zipper-studios/flutter-fetch-data-from-api-and-architect-your-app-using-bloc-pattern-b826f80d6996
 
 _Architect your Flutter project using BLOC pattern_ - https://medium.com/flutterpub/architecting-your-flutter-project-bd04e144a8f1
@@ -234,262 +278,132 @@ _Architect your Flutter project using BLOC pattern_ - https://medium.com/flutter
 _Flutter: Handling your network API calls like a boss!_ - https://itnext.io/flutter-handling-your-network-api-calls-like-a-boss-936eef296547
 
 
-**Navigation**
-
-_Navigate with named routes_ - https://flutter.dev/docs/cookbook/navigation/named-routes
-
-_Best Practicesin Navigation_ - https://www.filledstacks.com/snippet/clean-navigation-in-flutter-using-generated-routes/
-
-_The Best Flutter Responsive UI Pattern_ https://www.filledstacks.com/post/the-best-flutter-responsive-ui-pattern/
+**---Simple And Bug-Free Code With Dart Operators----**
+https://medium.com/flutter-community/simple-and-bug-free-code-with-dart-operators-2e81211cecfe
 
 
-**Assignments in this order**
+**---Exploring Stack and IndexedStack in Flutter--**
+https://medium.com/flutter-community/a-deep-dive-into-stack-in-flutter-3264619b3a77
+
+
+**Quick and Easy Dialogs in Flutter with RfFlutter** 
+https://www.filledstacks.com/snippet/quick-and-easy-dialogs-in-flutter-with-rf-flutter/
+_Dialog Box Service_ - https://www.filledstacks.com/post/manager-your-flutter-dialogs-with-a-dialog-manager/
+
+**Creating Custom Progress Indicators:** https://www.youtube.com/watch?v=TiH0HYBFMMI&pp=wgIECgIIAQ%3D%3D&feature=push-sd&attr_tag=TFGcP0Kx6a9-aL2u%3A6
+
+**Very good resource** https://flutteragency.com/**
+
+**Mobile Pickers**- https://material.io/components/pickers/#mobile-pickers
+
+**Quick and Easy Dialogs in Flutter with RfFlutter** - https://www.filledstacks.com/snippet/quick-and-easy-dialogs-in-flutter-with-rf-flutter/
+
+**Dialog Box Service** - https://www.filledstacks.com/post/manager-your-flutter-dialogs-with-a-dialog-manager/
+
+**Better Animation When Keyboard Opens** - https://www.filledstacks.com/snippet/better-animation-when-keyboard-opens/
+
+**in-app notifications and toast messages** -
+https://www.filledstacks.com/snippet/in-app-notifications-in-flutter/    
+https://www.filledstacks.com/snippet/easy-toasts-with-ok-toast/
+
+**Block Pattern (3 series video)** - https://www.youtube.com/watch?v=pdV2GzstYCQ&feature=youtu.be
+
+**Articles**
+https://medium.com/zipper-studios
+https://medium.com/flutter-community/widget-state-buildcontext-inheritedwidget-898d671b7956
+https://stackoverflow.com/questions/49100196/what-does-buildcontext-do-in-flutter
+
+**FloatingActionButton**
+Deven Joshi - https://proandroiddev.com/a-deep-dive-into-floatingactionbutton-in-flutter-bf95bee11627
+
+**Animation**
+1. Deven Joshi - Implicitly Animated Widgets in Flutter- https://medium.com/flutter-community/animated-widgets-in-flutter-763fd5dd6d01
+2. Deven Joshi - A Deep Dive Into Transform Widgets in Flutter -https://medium.com/flutter-community/a-deep-dive-into-transform-widgets-in-flutter-4dc32cd575a9
+3. Deven Joshi - A Deep Dive Into Hero Widgets in Flutter - https://medium.com/flutter-community/a-deep-dive-into-hero-widgets-in-flutter-d34f441eb026
+4. _Animations_ - https://flutter.dev/docs/development/ui/animations
+5. _Better Animation When Keyboard Opens_ - https://www.filledstacks.com/snippet/better-animation-when-keyboard-opens/
+
+
+**Deven Joshi Flutter ListView and ScrollPhysics** - https://medium.com/flutter-community/flutter-listview-and-scrollphysics-a-detailed-look-7f0912df2754
+
+**Images resources angela**
+https://www.vecteezy.com/
+https://icons8.com/
+canva.com/
+
+**Persistence(working with files and jsondata using shared_preferences)**
+https://docs.flutter.dev/cookbook/persistence
+**Shared preferences Login App** https://pub.dev/packages/shared_preferences
 
 _Food Delivery App UI with Functionality (They have used "provider concept" in that..along with bloc pattern)_ - https://www.youtube.com/watch?v=wWH66F9y63U&t=2534s
 
-_Drag and Drop - Flutter Tutorial_ - https://www.youtube.com/watch?v=pKO54ttCV5I
+**Drag and Drop - Flutter Tutorial** - https://www.youtube.com/watch?v=pKO54ttCV5I
 
-_Ux challenge using following widgets_ - https://dribbble.com/shots/3466120
+**Request Permissions in Flutter as a Service** - https://www.filledstacks.com/snippet/request-permissions-in-flutter-as-a-service/
 
-  1. Shape of View widget
-   https://pub.dev/packages/shape_of_view#-readme-tab-
+**Internationalizing Flutter apps** - https://flutter.dev/docs/development/accessibility-and-localization/internationalization
 
-  2. Circle Avatar
-  https://api.flutter.dev/flutter/material/CircleAvatar-class.html
+**Using the Flutter inspector** - https://flutter.dev/docs/development/tools/devtools/inspector
 
-  3. Stack Widget
-  https://api.flutter.dev/flutter/widgets/Stack-class.html
+**Performance** - https://flutter.dev/docs/perf
 
-  4. Positioned Widget
-  https://api.flutter.dev/flutter/widgets/Positioned-class.html
+**Separating build environments in Flutter apps** - https://iiro.dev/2018/03/02/separating-build-environments/
 
-  5. Raised Button with rounded radius
-  https://stackoverflow.com/questions/49991444/create-a-rounded-button-button-with-border-radius-in-flutter
+**Inherited Widgets Explained - Flutter Widgets 101 Ep. 3** -  https://www.youtube.com/watch?v=Zbm3hjPjQMk
 
-**Independent Assignments**
-
-_Charts_ - https://google.github.io/charts/flutter/gallery.html
-
-_https://www.filledstacks.com/snippet/quick-and-easy-dialogs-in-flutter-with-rf-flutter/
-
-_Quick and Easy Dialogs in Flutter with RfFlutter_ - 
-
-https://www.filledstacks.com/snippet/quick-and-easy-dialogs-in-flutter-with-rf-flutter/
-
-https://dribbble.com/shots/6541291-Snowball-website-alive-Dashboard-page
-
-https://dribbble.com/shots/7036184/attachments/36346?mode=media
-
-
-_Better Animation When Keyboard Opens_ - https://www.filledstacks.com/snippet/better-animation-when-keyboard-opens/
-
-_Dialog Box Service_ - https://www.filledstacks.com/post/manager-your-flutter-dialogs-with-a-dialog-manager/
-
-_Ux Challenge(only left side using card widget)_ - https://dribbble.com/shots/4486758-Relationship-Coaching-App
-
-
-_in-app notifications and toast messages_ - https://www.filledstacks.com/snippet/in-app-notifications-in-flutter/    
-https://www.filledstacks.com/snippet/easy-toasts-with-ok-toast/
-
-_Request Permissions in Flutter as a Service_ - https://www.filledstacks.com/snippet/request-permissions-in-flutter-as-a-service/
-
-_Internationalizing Flutter apps_ - https://flutter.dev/docs/development/accessibility-and-localization/internationalization
-
-_Using the Flutter inspector_ - https://flutter.dev/docs/development/tools/devtools/inspector
-
-_Performance_ - https://flutter.dev/docs/perf
-
-_Animations_ - https://flutter.dev/docs/development/ui/animations
-
-_Ux challenge_ - https://dribbble.com/shots/6191054-Loan-repayment-bill
-
-_UX Challenge_ - https://dribbble.com/shots/6037533-Finance-Mobile-App-UI
-
-_UX Challenge(left side animated progress bar)_ - https://lh3.googleusercontent.com/-5yWQf8ReaD0/XoyA2EXAmEI/AAAAAAAAA04/yV9s1ZHvYa8CDLIwhd00_UKn5QYGtQJTgCK8BGAsYHg/s0/2020-04-07.png
-
-_Take a picture using the camera_ - https://flutter.dev/docs/cookbook/plugins/picture-using-camera
-
-_Separating build environments in Flutter apps_ - https://iiro.dev/2018/03/02/separating-build-environments/
-
-_Inherited Widgets Explained - Flutter Widgets 101 Ep. 3_ https://www.youtube.com/watch?v=Zbm3hjPjQMk
-
-_Setting up Lint Rules in Dart-Flutter_ 
-
+**Setting up Lint Rules in Dart-Flutter**
 https://medium.com/podiihq/setting-up-lint-rules-in-dart-flutter-1ebbed0418a6
-
 https://dart-lang.github.io/linter/lints/
-
-
-_Shared preferences Login App_ https://pub.dev/packages/shared_preferences
-
-**Resources**-   
-_Creating Custom Progress Indicators:_ https://www.youtube.com/watch?v=TiH0HYBFMMI&pp=wgIECgIIAQ%3D%3D&feature=push-sd&attr_tag=TFGcP0Kx6a9-aL2u%3A6
-_Mobile Pickers_ - https://material.io/components/pickers/#mobile-pickers
-
-_Quick and Easy Dialogs in Flutter with RfFlutter_ - https://www.filledstacks.com/snippet/quick-and-easy-dialogs-in-flutter-with-rf-flutter/
-
-_Better Animation When Keyboard Opens_ - https://www.filledstacks.com/snippet/better-animation-when-keyboard-opens/
-
-_Dialog Box Service_ - https://www.filledstacks.com/post/manager-your-flutter-dialogs-with-a-dialog-manager/
-
-_in-app notifications and toast messages_ - https://www.filledstacks.com/snippet/in-app-notifications-in-flutter/    
-https://www.filledstacks.com/snippet/easy-toasts-with-ok-toast/
-
-**_JSON and serialization_ **- https://flutter.dev/docs/development/data-and-backend/json
-https://medium.com/flutter/some-options-for-deserializing-json-with-flutter-7481325a4450
-
-
-
-_Block Pattern (3 series video)(_ - https://www.youtube.com/watch?v=pdV2GzstYCQ&feature=youtu.be
-
-_firebase_ - https://github.com/HackerNews/API
-
-_Widget — State — BuildContext — InheritedWidget_ -
-
-_Articles_ - https://medium.com/zipper-studios
-
-
-https://medium.com/flutter-community/widget-state-buildcontext-inheritedwidget-898d671b7956
-
-https://stackoverflow.com/questions/49100196/what-does-buildcontext-do-in-flutter
-
-
-Persistence(working with files and jsondata using shared_preferences)
-https://docs.flutter.dev/cookbook/persistence
-
 
 **Json Data**
 https://about.google/static/data/locations.json // 
-
 https://reqres.in/
-
 https://financialmodelingprep.com/api/v3/company/profile/AAPL
-
 _used for departure bloc pattern in 3 part series video_ - http://www3.septa.org/hackathon/Arrivals/Suburban%20Station/5/
-
 https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson - used by Paulo in maps exrthquakes app. Shows 2.5 days earthquakes. can select others also lke per day, etc.
-
-
+https://openflights.org/data.html
 
 **Dart**
-
-_Dart Cheatsheet_ - https://dart.dev/codelabs/dart-cheatsheet
-_convert map to list_ - subjectList = response.map<Subject>((json) => Subject.fromJson(json)).toList();
-  
-  
-  
-**Chrome Extensions:**
-
+_Dart Cheatsheet_ https://dart.dev/codelabs/dart-cheatsheet
+**Top 16 Dart Tips and Tricks Every Flutter Developer Should Know** https://www.youtube.com/watch?v=9OxxU4RlCkk
+    
+**Chrome Extensions:
 1. JSON Viewer Awesome -  to show JSON in nice format with chart and tree structure
 2. JSON to Dart Converter - https://in.search.yahoo.com/search?fr=mcafee&type=E210IN714G0&p=json+to+dart - Paste the JSON data, it will convert. Copy it and put in the Model class.
 3. https://javiercbk.github.io/json_to_dart/ - to easily convert json to dart models. If this doesn't wok then first parse and correct it in the next one given below.
 4. https://jsonformatter.org/json-parser
 
-**Packages:**
-1. **Geolocator**
-Get the last known location;
-Get the current location of the device;
-Get continuous location updates;
-Check if location services are enabled on the device;
-Calculate the distance (in meters) between two geocoordinates;
-Calculate the bearing between two geocoordinates;
+**Andrea**
+https://codewithandrea.com/tutorials/
 
-example: converting location to getting address of place
+**Best Articles by andrea**
+https://medium.flutterdevs.com/roadmap-to-become-a-flutter-developer-resources-for-beginners-ccb68718c84b
 
-Converting this Into an Address
-We don’t have to stop there though! We can get a Placemark which is essentially an approximation of the user’s current location from the latitude and longitude. Let’s see this in action:
+**Nice blogs**
+https://medium.flutterdevs.com/
 
-import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
-import 'package:geolocator/geolocator.dart';
+**My Google API key**
+AIzaSyCFm_Mu7Y36xhEjPr2jkXgwgLpgA7UxLpE
 
-class HomePage extends StatefulWidget {
-  @override
-  _HomePageState createState() => _HomePageState();
-}
+**loading json from assets local file**
+The rootBundle contains the resources that were packaged with the application when it was built
+**check here --- https://api.flutter.dev/flutter/services/rootBundle.html**
+return Locations.fromJson(
+    json.decode(
+      await rootBundle.loadString('assets/locations.json'),
+    ) as Map<String, dynamic>,
+  );
 
-class _HomePageState extends State<HomePage> {
-  final Geolocator geolocator = Geolocator()..forceAndroidLocationManager;
+**explains What Does WidgetsFlutterBinding.ensureInitialized() do?**
+https://stackoverflow.com/questions/63873338/what-does-widgetsflutterbinding-ensureinitialized-do 
 
-  Position _currentPosition;
-  String _currentAddress;
+**Bang Operator...Nullable error**
+https://stackoverflow.com/questions/67667071/understanding-bang-operator-in-dart
 
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: Text("Location"),
-      ),
-      body: Center(
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: <Widget>[
-            if (_currentPosition != null) Text(_currentAddress),
-            FlatButton(
-              child: Text("Get location"),
-              onPressed: () {
-                _getCurrentLocation();
-              },
-            ),
-          ],
-        ),
-      ),
-    );
-  }
-
-  _getCurrentLocation() {
-    geolocator
-        .getCurrentPosition(desiredAccuracy: LocationAccuracy.best)
-        .then((Position position) {
-      setState(() {
-        _currentPosition = position;
-      });
-
-      _getAddressFromLatLng();
-    }).catchError((e) {
-      print(e);
-    });
-  }
-
-  _getAddressFromLatLng() async {
-    try {
-      List<Placemark> p = await geolocator.placemarkFromCoordinates(
-          _currentPosition.latitude, _currentPosition.longitude);
-
-      Placemark place = p[0];
-
-      setState(() {
-        _currentAddress =
-            "${place.locality}, ${place.postalCode}, ${place.country}";
-      });
-    } catch (e) {
-      print(e);
-    }
-  }
-}
+**zero to one with flutter**
+https://medium.com/flutter/zero-to-one-with-flutter-43b13fd7b354
 
 
-2. GeoLocator -- gives more control on current location. Little advanced than location plugin. 
 
-3. Geocoder -  Forward and reverse geocoding. 
 
-example:
-import 'package:geocoder/geocoder.dart';
 
-// From a query
-final query = "1600 Amphiteatre Parkway, Mountain View";
-var addresses = await Geocoder.local.findAddressesFromQuery(query);
-var first = addresses.first;
-print("${first.featureName} : ${first.coordinates}");
-
-// From coordinates
-final coordinates = new Coordinates(1.10, 45.50);
-addresses = await Geocoder.local.findAddressesFromCoordinates(coordinates);
-first = addresses.first;
-print("${first.featureName} : ${first.addressLine}");
-
-This article explains both plugins with map well.
-https://medium.com/swlh/working-with-geolocation-and-geocoding-in-flutter-and-integration-with-maps-16fb0bc35ede
-
-Explains how to get nearbyplaces and plot on map. gets user location also
-https://medium.com/flutter-community/building-places-location-search-with-map-view-using-flutter-1-0-alfian-losari-66cacb3bcc24
