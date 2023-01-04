@@ -127,27 +127,85 @@ https://medium.com/flutter-community/build-responsive-uis-in-flutter-fd450bd5915
 **Official docs - Adaptive design** - 
 a. https://docs.flutter.dev/development/ui/layout/adaptive-responsive
 b. https://docs.flutter.dev/resources/platform-adaptations
-
+https://medium.com/flutter-community/flutter-effectively-scale-ui-according-to-different-screen-sizes-2cb7c115ea0a
 
 
 **--------------Networking-http package-------------**
-1. _Understanding Futures and Streams. Also Futurebuilder, Streambuilder - https://stackoverflow.com/questions/50844519/flutter-streambuilder-vs-futurebuilder#:~:text=FutureBuilder%20solves%20a%20square%20value,value%20by%201%20every%20second.
-2. _JSON and serialization - https://flutter.dev/docs/development/data-and-backend/json
-https://medium.com/flutter/some-options-for-deserializing-json-with-flutter-7481325a4450
+1. Slidedeck(intro)
+2. _Understanding Futures and Streams. Also Futurebuilder, Streambuilder - https://stackoverflow.com/questions/50844519/flutter-streambuilder-vs-futurebuilder#:~:text=FutureBuilder%20solves%20a%20square%20value,value%20by%201%20every%20second.
+4. _Andrea serialization and deserializtion_ - https://codewithandrea.com/articles/parse-json-dart/
+3. _Pooja Bhaumik - Understanding JSON and serialization & deserialization_ - https://medium.com/flutter-community/parsing-complex-json-in-flutter-747c46655f51
+4. _Codelabs
+    **Fetching data from internet**
+    https://flutter.dev/docs/cookbook/networking/fetch-data
+    **Sending Data to the server**
+    https://flutter.dev/docs/cookbook/networking/send-data
+    **Delete data on the internet**
+    https://docs.flutter.dev/cookbook/networking/delete-data
+    **Update data over the internet**
+    https://docs.flutter.dev/cookbook/networking/update-data
+    **Make authenticated requests**
+    https://docs.flutter.dev/cookbook/networking/authenticated-requests
+5. Slidedeck(rest of the slides using service, etc.)
+6. For my reference - Futures and Streams - https://malshikay.medium.com/futurebuilder-and-streambuilder-in-flutter-e00710c7b529
 
-_Codelabs
-**Fetching data from internet**
-https://flutter.dev/docs/cookbook/networking/fetch-data
-**Sending Data to the server**
-https://flutter.dev/docs/cookbook/networking/send-data
+
+
+**--------------------------------State Management-------------------------------------------**
+1. Understanding state - https://docs.flutter.dev/development/data-and-backend/state-mgmt/ephemeral-vs-app
+2. Codelab - official docs - https://docs.flutter.dev/development/data-and-backend/state-mgmt/simple
+3. List of approaches - https://docs.flutter.dev/development/data-and-backend/state-mgmt/options
+4. Andrea - https://www.youtube.com/watch?v=MkFjtCov62g&t=886s
+5. Slidedeck
+My reference - Global Access vs Scoped Access with Provider - https://codewithandrea.com/articles/global-access-vs-scoped-access/
+My reference - https://medium.com/theotherdev-s/starting-with-flutter-a-simple-guide-for-provider-401b25957989
+
+
+**-----------------------------------Firebase and Flutter project connectivity----------------------------**
+1. Using flutter cli - https://www.youtube.com/watch?v=dIK5MNvaxeY
+My reference -andrea - https://codewithandrea.com/articles/flutter-firebase-flutterfire-cli/
+My reference - andrea  -very nice complete app - https://www.youtube.com/watch?v=-Za1MspEt5I
 
 
 
+**--------------------Authentication Flow with Flutter---------------------------------------**
+With provider - https://levelup.gitconnected.com/firebase-authentication-and-keeping-users-logged-in-with-provider-in-flutter-f1c66cdb1bc7
+my reference - andrea without provider- https://codewithandrea.com/articles/simple-authentication-flow-with-flutter/
+my reference - ANdrea Designing an Authentication API with Service Classes - https://codewithandrea.com/articles/designing-an-authentication-service-api/
+my reference - with provider - https://medium.com/flutter-community/managing-flutter-state-using-provider-e26c78060c26
 
 
 
-For my reference
-Futures and Streams - https://malshikay.medium.com/futurebuilder-and-streambuilder-in-flutter-e00710c7b529
+**-----------------------------------Firebase Authentication and firestore---------------------------------**
+1. Codelab firebase authentication and firestore - https://firebase.google.com/codelabs/firebase-get-to-know-flutter#4
+2. 
+My reference - All types of authentication - https://www.youtube.com/watch?v=u8H652UY-L8
+My reference - https://medium.flutterdevs.com/email-authentication-using-firebase-in-flutter-36ca17705c40
+My reference - https://medium.flutterdevs.com/using-firebase-firestore-in-flutter-b0ea2c62bc7
+
+
+
+**--------------------------Using Cloud Firestore as database----------------**
+My reference - flutter team - https://www.youtube.com/watch?v=DqJ_KjFzL9I
+
+**firebase integration**
+https://www.youtube.com/watch?v=u_Lyx8KJWpg
+https://www.youtube.com/watch?v=yKKta6ZoyZY
+
+
+
+**--------------Chat APP-- Gave them this at the end. Very nice app using auth, store, storage, etc-------**
+https://medium.com/flutter-community/building-a-chat-app-with-flutter-and-firebase-from-scratch-9eaa7f41782e
+my reference - How to build a Chat Messaging UI in Flutter - https://codewithandrea.com/articles/chat-messaging-ui-flutter/
+
+
+**------------------------Using Firebase Auth and Cloud Firestore---------------------------**
+
+**Coding with Flutter with Firebase Auth with provider- 6 part series by Andrea**
+https://www.youtube.com/watch?v=u_Lyx8KJWpg
+
+**Coding with Flutter with Firebase Auth with provider- 6 part series by AndreaWith stream buider with Andrea**
+https://www.youtube.com/watch?v=nxu4bMpPvCQ&list=PLNnAcB93JKV_NIGSneTazb9yMpILapEjo&index=10
 
 
 
@@ -201,41 +259,6 @@ https://medium.flutterdevs.com/security-testing-in-flutter-633999164847
 https://medium.flutterdevs.com/security-testing-in-flutter-633999164847
 https://medium.flutterdevs.com/security-testing-in-flutter-633999164847
 https://stackoverflow.com/questions/71525025/security-in-flutter-apps
-
-
-
-
-
-
-
-**--------------------------------State Management-------------------------------------------**
-**--------------------------Using Cloud Firestore as database. Connecting with Flutter app----------------**
-https://medium.flutterdevs.com/using-firebase-firestore-in-flutter-b0ea2c62bc7
-
-**firebase integration**
-https://www.youtube.com/watch?v=u_Lyx8KJWpg
-https://www.youtube.com/watch?v=yKKta6ZoyZY
-
-**firebase integaration, auth and provider**
-https://firebase.google.com/codelabs/firebase-get-to-know-flutter#5
-https://medium.com/flutter-community/flutter-provider-architecture-with-firebase-full-guide-by-building-a-working-crud-app-4824cec04e59
-**Chat APP-- Gave them this at the end. Very nice app using lots of pofficial docsages**
-https://medium.com/flutter-community/building-a-chat-app-with-flutter-and-firebase-from-scratch-9eaa7f41782e
-
-
-**Using Firebase Auth and Cloud Firestore**
-_firebase_ - https://github.com/HackerNews/API
-**Flutter blog**
-https://medium.flutterdevs.com/email-authentication-using-firebase-in-flutter-36ca17705c40
-
-**Coding with Flutter with Firebase Auth with provider- 6 part series by Andrea**
-https://www.youtube.com/watch?v=u_Lyx8KJWpg
-
-**Coding with Flutter with Firebase Auth with provider- 6 part series by AndreaWith stream buider with Andrea**
-https://www.youtube.com/watch?v=nxu4bMpPvCQ&list=PLNnAcB93JKV_NIGSneTazb9yMpILapEjo&index=10
-
-**-----How to add Firebase to a Flutter app with FlutterFire CLI**
-https://codewithandrea.com/articles/flutter-firebase-flutterfire-cli/
 
 
 
@@ -356,6 +379,7 @@ https://medium.com/podiihq/setting-up-lint-rules-in-dart-flutter-1ebbed0418a6
 https://dart-lang.github.io/linter/lints/
 
 **Json Data**
+_firebase_ - https://github.com/HackerNews/API
 https://about.google/static/data/locations.json // 
 https://reqres.in/
 https://financialmodelingprep.com/api/v3/company/profile/AAPL
