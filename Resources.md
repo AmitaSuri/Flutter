@@ -10,7 +10,11 @@ _Ux challenge using following widgets_ - https://dribbble.com/shots/3466120
   https://api.flutter.dev/flutter/widgets/Stack-class.html
   4. Positioned Widget
   https://api.flutter.dev/flutter/widgets/Positioned-class.html
-  5. Raised Button with rounded radius
+  5. Wrap widget
+  https://api.flutter.dev/flutter/widgets/Wrap-class.html
+  6. Chip widget
+  https://api.flutter.dev/flutter/material/Chip-class.html
+  7. Elevated Button with rounded radius
   https://stackoverflow.com/questions/49991444/create-a-rounded-button-button-with-border-radius-in-flutter
 https://dribbble.com/shots/6541291-Snowball-website-alive-Dashboard-page
 https://dribbble.com/shots/7036184/attachments/36346?mode=media
