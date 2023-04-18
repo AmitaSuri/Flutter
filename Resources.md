@@ -25,6 +25,16 @@ _Ux challenge on grid_ - https://lh3.googleusercontent.com/-MYvBdXoTTyQ/XnH8Eoc9
 _ux challenge on grid_ - https://lh3.googleusercontent.com/-Jr5npcZQku8/XnH7kjprZ1I/AAAAAAAAAbo/MneYnj7a03o0d1Y0z3_kgbil8u5wvxFDQCK8BGAsYHg/s0/2020-03-18.png
 _ux challenge on slider_ - https://lh3.googleusercontent.com/-5yWQf8ReaD0/XoyA2EXAmEI/AAAAAAAAA04/yV9s1ZHvYa8CDLIwhd00_UKn5QYGtQJTgCK8BGAsYHg/s0/2020-04-07.png
 _Ux Challenge(only left side using card widget)_ - https://dribbble.com/shots/4486758-Relationship-Coaching-App
+https://dribbble.com/shots/21223276-Study-Box
+https://dribbble.com/shots/21091764-Study-Box
+https://dribbble.com/shots/21223276-Study-Box
+https://dribbble.com/shots/21112894-Medicine-delivery-app
+https://dribbble.com/shots/16188933-Marketplace-design-for-online-food-order-delivery
+https://dribbble.com/shots/21223764-Market-View
+https://dribbble.com/shots/21092486-Online-interview
+https://dribbble.com/shots/20949283-Medici-Bank
+https://dribbble.com/shots/20769805-College-group
+https://dribbble.com/shots/20949283-Medici-Bank
 
 
 **-------------------------Widgets and Layouts----------------------------**
