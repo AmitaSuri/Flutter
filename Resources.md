@@ -82,8 +82,12 @@ https://medium.com/flutter-community/how-to-use-images-in-flutter-to-the-point-5
 
 **--------------------------------Theming-----------------------------------**
 1. Slide deck - m1 and m2 - Old way
-2. m3 - https://dartling.dev/dynamic-theme-color-material-3-you-flutter
-3. docs - https://m3.material.io/foundations/design-tokens/overview
+2. docs - https://m3.material.io/foundations/design-tokens/overview
+3. https://docs.flutter.dev/cookbook/design/themes
+4. https://www.youtube.com/watch?v=DL0Ix1lnC4w
+5. very good .... Migration - https://blog.codemagic.io/migrating-a-flutter-app-to-material-3
+// 6. m3 - https://dartling.dev/dynamic-theme-color-material-3-you-flutter
+
 
 
 
