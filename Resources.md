@@ -75,6 +75,7 @@ https://medium.com/flutter-community/how-to-use-images-in-flutter-to-the-point-5
 
 
 **--------------------------Navigation------------------------------**
+1. https://medium.com/flutter/learning-flutters-new-navigation-and-routing-system-7c9068155ade
 1. Slide deck - check different assignments links and see how to go about it. cookbook, pooja bhaumik link, etc.
 2. _Best Practicesin Navigation_ - https://www.filledstacks.com/snippet/clean-navigation-in-flutter-using-generated-routes/
 
