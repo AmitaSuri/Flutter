@@ -198,6 +198,8 @@ My reference - https://medium.com/theotherdev-s/starting-with-flutter-a-simple-g
 
 **-----------------------------------Firebase and Flutter project connectivity----------------------------**
 
+**Important do codelab which setsup with firebase cli and covers authentication and cloud storage... Codelab firebase authentication and firestore - https://firebase.google.com/codelabs/firebase-get-to-know-flutter#4**
+
 Firebase offers many services...authentication, cloude storage(for database with many good features), realtime database(database..old), storage(for storing users data like images, etc), etc.
 
 **steps to connect with firebase. This is latest through firebase cli**
@@ -236,7 +238,7 @@ You can select either to use an existing Firebase project or to create a new Fir
 
 
 **--------------------Authentication Flow with Flutter---------------------------------------**
-With provider - https://levelup.gitconnected.com/firebase-authentication-and-keeping-users-logged-in-with-provider-in-flutter-f1c66cdb1bc7
+my ref ..With provider - https://levelup.gitconnected.com/firebase-authentication-and-keeping-users-logged-in-with-provider-in-flutter-f1c66cdb1bc7
 my reference - andrea without provider- https://codewithandrea.com/articles/simple-authentication-flow-with-flutter/
 my reference - ANdrea Designing an Authentication API with Service Classes - https://codewithandrea.com/articles/designing-an-authentication-service-api/
 my reference - with provider - https://medium.com/flutter-community/managing-flutter-state-using-provider-e26c78060c26
@@ -244,11 +246,9 @@ my reference - with provider - https://medium.com/flutter-community/managing-flu
 
 
 **-----------------------------------Firebase Authentication and firestore---------------------------------**
-1. Codelab firebase authentication and firestore - https://firebase.google.com/codelabs/firebase-get-to-know-flutter#4
-2. 
-My reference - All types of authentication - https://www.youtube.com/watch?v=u8H652UY-L8
-My reference - https://medium.flutterdevs.com/email-authentication-using-firebase-in-flutter-36ca17705c40
-My reference - https://medium.flutterdevs.com/using-firebase-firestore-in-flutter-b0ea2c62bc7
+1.My reference - All types of authentication - https://www.youtube.com/watch?v=u8H652UY-L8
+2. My reference - https://medium.flutterdevs.com/email-authentication-using-firebase-in-flutter-36ca17705c40
+3. My reference - https://medium.flutterdevs.com/using-firebase-firestore-in-flutter-b0ea2c62bc7
 
 
 
