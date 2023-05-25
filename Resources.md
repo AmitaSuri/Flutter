@@ -100,6 +100,9 @@ https://medium.com/flutter-community/how-to-use-images-in-flutter-to-the-point-5
     b. Deven joshi - Textfield in detail - https://medium.com/flutter-community/a-deep-dive-into-flutter-textfields-f0e676aaab7a
     
 
+****************************Trees and Keys************************************
+1. do from slides in flutter training resources folder alongwith the lab in flutter internals (udemy mac)
+2. give for reference https://dhruvnakum.xyz/keys-in-flutter-uniquekey-valuekey-objectkey-pagestoragekey-globalkey
 
 **------------------------------Lifecycle------------------------------------------**
 https://medium.flutterdevs.com/app-lifecycle-in-flutter-c248d894b830(best widget lifecycle)
