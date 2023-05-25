@@ -198,11 +198,34 @@ My reference - https://medium.com/theotherdev-s/starting-with-flutter-a-simple-g
 
 **-----------------------------------Firebase and Flutter project connectivity----------------------------**
 Firebase offers many services...authentication, cloude storage(for database with many good features), realtime database(database..old), storage(for storing users data like images, etc), etc.
-**steps to connect with firebase**
+**steps to connect with firebase. This is latest through firebase cli**
 1. Create a firebas project ---- from "goto console" tab at this link https://firebase.google.com/docs/flutter/setup?platform=android
-2. Create your flutter app in android studio and connect it to firebase project. Latest is using the Firebase cli... Follow steps at this link. Do till step 3 at this link...https://firebase.google.com/docs/flutter/setup?platform=android......you need to install firbase cli first.....
-3. Now to use the firebase features in flutter app conveniently, we can use plugins from pub dev. the 'firebase_core' package is always required for all the  features. To know about the plugins for diff features, scroll down at the above link to see the feature and the plugin. click on feature e.g. authentication and install the 'firebase_auth' and follow the instructions. same for cloud storage and storage.
+2. Create your flutter app in android studio and connect it to firebase project. Latest is using the Firebase cli... Follow steps at this link. Do till step 3 at this link...https://firebase.google.com/docs/flutter/setup?platform=android......you need to install firbase cli first.....This is needed for flutterfire CLI..The FlutterFire CLI is a useful tool which provides commands to help ease the installation process of FlutterFire across all supported platforms.
+   The flutterfire configure workflow does the following:
+     * Asks you to select the platforms (iOS, Android, Web) supported in your Flutter app. For each selected platform, the FlutterFire CLI creates a new Firebase app in your Firebase project.
+     * Creates a Firebase configuration file (firebase_options.dart) and adds it to your lib/ directory.
+     * (for Crashlytics or Performance Monitoring on Android) Adds the required product-specific Gradle plugins to your Flutter app.
+
+You can select either to use an existing Firebase project or to create a new Firebase project. If you already have apps registered in an existing Firebase project, the FlutterFire CLI will attempt to match them based on your current Flutter project configuration.
+
+Asks you to select the platforms (iOS, Android, Web) supported in your Flutter app. For each selected platform, the FlutterFire CLI creates a new Firebase app in your Firebase project.
+
+You can select either to use an existing Firebase project or to create a new Firebase project. If you already have apps registered in an existing Firebase project, the FlutterFire CLI will attempt to match them based on your current Flutter project configuration.
+4. Now to use the firebase services in flutter app conveniently, we can use flutterfire. FlutterFire is a set of Flutter plugins which connect your Flutter application to Firebase e.g. plugins from pub dev. the 'firebase_core' package is always required for all the  features. To know about the plugins for diff features, scroll down at the above link to see the feature and the plugin. click on feature e.g. authentication and install the 'firebase_auth' and follow the instructions. same for cloud storage and storage.
+5. While following the above guide..step 3...> step4 is like this:
+
+    void main() {
+  Future<void> main() async {
+    WidgetsFlutterBinding.ensureInitialized();
+    await Firebase.initializeApp(
+      options: DefaultFirebaseOptions.currentPlatform,
+    );
+    runApp(const App());
+  }
+}
  
+  
+  
 
 1. Using flutter cli - https://www.youtube.com/watch?v=dIK5MNvaxeY
 My reference -andrea - https://codewithandrea.com/articles/flutter-firebase-flutterfire-cli/
