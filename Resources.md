@@ -202,6 +202,8 @@ My reference - https://medium.com/theotherdev-s/starting-with-flutter-a-simple-g
 
 Firebase offers many services...authentication, cloude storage(for database with many good features), realtime database(database..old), storage(for storing users data like images, etc), etc.
 
+You can connect your flutter project manually or with cli tools. once tools are installed you dont need to install them again. next time only start with command 'flutterfire configure'
+
 **steps to connect with firebase. This is latest through firebase cli**
 
 1. Create a firebas project ---- from "goto console" tab at this link https://firebase.google.com/docs/flutter/setup?platform=android
@@ -235,22 +237,36 @@ You can select either to use an existing Firebase project or to create a new Fir
   }
 }
 
+6. Can create a provider for all th above tasks .. my reference - with provider - https://medium.com/flutter-community/managing-flutter-state-using-provider-e26c78060c26
+  
+ my reference - ANdrea Designing an Authentication API with Service Classes - https://codewithandrea.com/articles/designing-an-authentication-service-api/
+  
+7. Share this link for documentation on all the firebase services.. https://firebase.flutter.dev/docs/overview
 
 
 **--------------------Authentication Flow with Flutter---------------------------------------**
-my ref ..With provider - https://levelup.gitconnected.com/firebase-authentication-and-keeping-users-logged-in-with-provider-in-flutter-f1c66cdb1bc7
-my reference - andrea without provider- https://codewithandrea.com/articles/simple-authentication-flow-with-flutter/
-my reference - ANdrea Designing an Authentication API with Service Classes - https://codewithandrea.com/articles/designing-an-authentication-service-api/
-my reference - with provider - https://medium.com/flutter-community/managing-flutter-state-using-provider-e26c78060c26
-
-
-
-**-----------------------------------Firebase Authentication and firestore---------------------------------**
+ 1.  Add the flutter_auth plugin and import
+  
+ 2. Refer to this link for APIs .. https://firebase.flutter.dev/docs/overview
+  
+ 3. Enable with Email and password on firebase project
+  
+ 4. Call createwithEmailAndPassord() for signing in and signInWithEmailAndPassord() for logging in. These methods return UserCredentials, which has user and the uid.
+ 
 1.My reference - All types of authentication - https://www.youtube.com/watch?v=u8H652UY-L8
 2. My reference - https://medium.flutterdevs.com/email-authentication-using-firebase-in-flutter-36ca17705c40
 3. My reference - https://medium.flutterdevs.com/using-firebase-firestore-in-flutter-b0ea2c62bc7
+  
 
-
+**--------------------------Using Cloud Storage to upload image in form----------------**
+1. Add the flutter_storage package
+2. Use image_picker to take image from camera and show preview in form circleavatar widget. No need to store this image on device as we will upload it. Image should be in File format.
+3. Get the storage reference by creating a Firestorage instance, then ref, then child for folder, again child for file. File name can be usercredentials.user.uid.jpg, to give it a unique name.
+4. Upload file by calling the putFile() method with the storage reference and passing the image file.
+5. You can get the downloage url by calling the getDownloadURL() method with storage reference.
+6. Share this link for image picker and upload  https://www.educative.io/answers/how-to-upload-to-firebase-storage-with-flutter
+  
+  
 
 **--------------------------Using Cloud Firestore as database----------------**
 My reference - flutter team - https://www.youtube.com/watch?v=DqJ_KjFzL9I
