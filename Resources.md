@@ -198,9 +198,11 @@ My reference - https://medium.com/theotherdev-s/starting-with-flutter-a-simple-g
 
 **-----------------------------------Firebase and Flutter project connectivity----------------------------**
 
-**Important do codelab which setsup with firebase cli and covers authentication and cloud storage... Codelab firebase authentication and firestore - https://firebase.google.com/codelabs/firebase-get-to-know-flutter#4**
+**they made a chat app by max in udemy course. it's in my firevbase/my_chat_app in training folder. The UIs for chat were from shubham in chatgpt. 
 
-Firebase offers many services...authentication, cloude storage(for database with many good features), realtime database(database..old), storage(for storing users data like images, etc), etc.
+**my reference - Don't do this codelab as it uses firebase UI and goRouter. which setsup with firebase cli and covers authentication and cloud storage but it us... Codelab firebase authentication and firestore - https://firebase.google.com/codelabs/firebase-get-to-know-flutter#4**
+
+Firebase offers many services...authentication, cloude storage(for database with many good features), realtime database(database..old), storage(for storing users data like images, etc), etc...reference https://firebase.google.com/docs/firestore/quickstart?authuser=0
 
 You can connect your flutter project manually or with cli tools. once tools are installed you dont need to install them again. next time only start with command 'flutterfire configure'
 
@@ -247,7 +249,7 @@ You can select either to use an existing Firebase project or to create a new Fir
 **--------------------Authentication Flow with Flutter---------------------------------------**
  1.  Add the flutter_auth plugin and import
   
- 2. Refer to this link for APIs .. https://firebase.flutter.dev/docs/overview
+ 2. Refer to this link for APIs .. https://firebase.google.com/docs/firestore/quickstart?authuser=0 , select android tab....and respective flutter plugins docs in pub.dev .... also (deprecated) https://firebase.flutter.dev/docs/overview
   
  3. Enable with Email and password on firebase project
   
@@ -261,6 +263,7 @@ You can select either to use an existing Firebase project or to create a new Fir
 **--------------------------Using Cloud Storage to upload image in form----------------**
 1. Add the flutter_storage package
 2. Use image_picker to take image from camera and show preview in form circleavatar widget. No need to store this image on device as we will upload it. Image should be in File format.
+3. In firebase project, select Storage, production/test mode, set security rules.
 3. Get the storage reference by creating a Firestorage instance, then ref, then child for folder, again child for file. File name can be usercredentials.user.uid.jpg, to give it a unique name.
 4. Upload file by calling the putFile() method with the storage reference and passing the image file.
 5. You can get the downloage url by calling the getDownloadURL() method with storage reference.
@@ -269,28 +272,18 @@ You can select either to use an existing Firebase project or to create a new Fir
   
 
 **--------------------------Using Cloud Firestore as database----------------**
+1. You use cloud firestore, which is a No SQL database. It has collections/documents. By default, each document is under auto genetrated id but you can give yours too. we can pass the uid of the authenticated user.
+2. In firebase, go to project, select cloud Firestore. switch to native mode, set secutity rules.
+3. Add the respective flutter plugin and import. 
+4. create instance of this plugin, and call methods to create a reference to collections path and call the add() method for auto generated document id or create a collections/documents reference and call set() for setting a unique document id
+  
+  
 My reference - flutter team - https://www.youtube.com/watch?v=DqJ_KjFzL9I
-
-**firebase integration**
-https://www.youtube.com/watch?v=u_Lyx8KJWpg
-https://www.youtube.com/watch?v=yKKta6ZoyZY
-
 
 
 **--------------Chat APP-- Gave them this at the end. Very nice app using auth, store, storage, etc-------**
 https://medium.com/flutter-community/building-a-chat-app-with-flutter-and-firebase-from-scratch-9eaa7f41782e
 my reference - How to build a Chat Messaging UI in Flutter - https://codewithandrea.com/articles/chat-messaging-ui-flutter/
-
-
-**------------------------Using Firebase Auth and Cloud Firestore---------------------------**
-
-**Coding with Flutter with Firebase Auth with provider- 6 part series by Andrea**
-https://www.youtube.com/watch?v=u_Lyx8KJWpg
-
-**Coding with Flutter with Firebase Auth with provider- 6 part series by AndreaWith stream buider with Andrea**
-https://www.youtube.com/watch?v=nxu4bMpPvCQ&list=PLNnAcB93JKV_NIGSneTazb9yMpILapEjo&index=10
-
-
 
 
 
