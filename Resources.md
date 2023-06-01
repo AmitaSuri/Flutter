@@ -290,21 +290,37 @@ my reference - How to build a Chat Messaging UI in Flutter - https://codewithand
 
 **---------------------Push Notifications-----------------------------------**
 https://medium.com/@duytq94/flutter-chat-app-extended-push-notification-messages-a26c669f4675
+  
 I gave this..sending notification did not work bcos of API so get obne from firebase and use it. his was not working.....https://www.youtube.com/watch?v=AUU6gbDni4Q
+  
 https://medium.com/comerge/implementing-push-notifications-in-flutter-apps-aef98451e8f1
+  
 https://fireship.io/lessons/flutter-push-notifications-fcm-guide/
+  
 https://itnext.io/push-notifications-with-firebase-on-flutter-df68cc830c89
+  
 https://blog.logrocket.com/add-flutter-push-notifications-firebase-cloud-messaging/
+  
 Same chat app above extended with push notificationhttps://medium.com/@duytq94/flutter-chat-app-extended-push-notification-messages-a26c669f4675
+  
+https://medium.com/firebase-tips-tricks/how-to-use-firebase-cloud-messaging-in-flutter-a15ca69ff292... has all firebase services
 
 
 **Local Notifications**
 https://nitishk72.medium.com/flutter-local-notification-1e43a353877b
+https://blog.logrocket.com/implementing-local-notifications-in-flutter/
 
 
 
 **----------------Adding App Icon - I did this whole process with them.---------------------------**
-https://blog.logrocket.com/create-adaptive-icons-flutter-launcher-icons/ (using package --do this only as it does it rightly for both android and ios)
+https://www.youtube.com/watch?v=eMHbgIgJyUQ&list=PL1WkZqhlAdC8uEd4SwmMD8_Bi_oCnwC4I&index=16&t=21s -- nice video...give this
+  
+https://blog.logrocket.com/create-adaptive-icons-flutter-launcher-icons/ (using package --can give this too , if needed.. it rightly for both android and ios)...can refer to it
+  
+https://medium.com/google-design/designing-adaptive-icons-515af294c783  --- tells how to design icons for different platforms
+  
+
+
 https://medium.com/@psyanite/how-to-add-app-launcher-icons-in-flutter-bd92b0e0873a (manually---don't do)
 (FOR MY REFRENCE)
 1. Using the package https://pub.dev/packages/flutter_launcher_icons. Docs from Max udemy. When we have the icons. I shared max's icons
