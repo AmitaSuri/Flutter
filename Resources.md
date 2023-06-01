@@ -87,7 +87,8 @@ https://medium.com/flutter-community/how-to-use-images-in-flutter-to-the-point-5
 3. https://docs.flutter.dev/cookbook/design/themes
 4. https://www.youtube.com/watch?v=DL0Ix1lnC4w
 5. very good .... Migration - https://blog.codemagic.io/migrating-a-flutter-app-to-material-3
-// 6. m3 - https://dartling.dev/dynamic-theme-color-material-3-you-flutter
+6. m3 - https://dartling.dev/dynamic-theme-color-material-3-you-flutter
+7. Changing theme dynamically... https://medium.flutterdevs.com/change-dynamically-theme-in-flutter-1f6540528887
 
 
 
@@ -118,6 +119,8 @@ https://api.flutter.dev/flutter/dart-ui/AppLifecycleState.html (app lifecycle---
 A.**------------------------------ImagePicker-------------------------------**
     1. https://blog.logrocket.com/building-an-image-picker-in-flutter/
     2. slide-deck
+   3. saving files to device  https://retroportalstudio.medium.com/saving-files-to-application-folder-and-gallery-in-flutter-e9be2ebee92a
+   4. 
 B. **-------------------------------------camera------------------------------------**
     1. https://docs.flutter.dev/cookbook/plugins/picture-using-camera
     2. slide deck
@@ -277,7 +280,6 @@ You can select either to use an existing Firebase project or to create a new Fir
 3. Add the respective flutter plugin and import. 
 4. create instance of this plugin, and call methods to create a reference to collections path and call the add() method for auto generated document id or create a collections/documents reference and call set() for setting a unique document id
   
-  
 My reference - flutter team - https://www.youtube.com/watch?v=DqJ_KjFzL9I
 
 
@@ -310,8 +312,13 @@ https://medium.com/firebase-tips-tricks/how-to-use-firebase-cloud-messaging-in-f
 **Local Notifications**
 https://nitishk72.medium.com/flutter-local-notification-1e43a353877b
 https://blog.logrocket.com/implementing-local-notifications-in-flutter/
+  https://www.youtube.com/watch?v=bRy5dmts3X8&list=PL1WkZqhlAdC8uEd4SwmMD8_Bi_oCnwC4I&index=23
+  
 
 
+  *************** cheatsheet flutter commands***************
+  https://medium.com/dhiwise/important-flutter-cli-commands-6ec0845b2237#:~:text=Flutter%20clean,Flutter%20clean%20for%20those%20applications.
+  
 
 **----------------Adding App Icon - can do  manually as angela did but now can be done with package.---------------------------**
 https://www.youtube.com/watch?v=eMHbgIgJyUQ&list=PL1WkZqhlAdC8uEd4SwmMD8_Bi_oCnwC4I&index=16&t=21s -- nice video...give this....for android specific shape, go to https://icons.learnpainless.com/icons-launcher.html#foreground.type=clipart&foreground.clipart=android&foreground.space.trim=1&foreground.space.pad=0.25&foreColor=rgba(96%2C%20125%2C%20139%2C%200)&backColor=rgb(68%2C%20138%2C%20255)&crop=0&backgroundShape=circle&effects=none&name=ic_launcher  and create an icon using the clipart. set its padding , size, background color. download it, select it from the downloaded folder and use it in yaml file as shown in video. Its alos tells about changing the app name.
@@ -360,7 +367,12 @@ https://github.com/flutter/samples/tree/main/android_splash_screen/images (FOR M
 5. **Doing manually -- don't do**
 https://docs.flutter.dev/development/ui/advanced/splash-screen?tab=android-splash-alignment-kotlin-tab (official docs)
 6. **Official docs** - https://docs.flutter.dev/development/ui/advanced/splash-screen 
-
+  
+  
+************************* Building the app ******************************
+https://medium.com/@bernes.dev/deploying-flutter-apps-to-the-playstore-1bd0cce0d15c  
+https://www.youtube.com/watch?v=g0GNuoCOtaQ 
+  https://medium.flutterdevs.com/publishing-flutter-app-to-playstore-fa7543b61a7b
 
 
 **-----------------------------------Security-------------------------------**
@@ -376,6 +388,7 @@ https://stackoverflow.com/questions/71525025/security-in-flutter-apps
 
 
 **-----------------------------Best practices-----------------------------**
+  https://heyflutter.com/courses/slkfjfACehTdLLgscSRg/LwfWEy28TUGXyItgc8HU
 1. SLide Deck ---  only 2 links
 2. https://somniosoftware.com/post/top-10-flutter-best-practices
 3. Other reference  ---- mostly flutter_lints package rules ----Three part series ----------------------https://itnext.io/flutter-best-practices-part-1-e89467ea4823
