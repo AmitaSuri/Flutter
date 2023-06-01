@@ -198,7 +198,7 @@ My reference - https://medium.com/theotherdev-s/starting-with-flutter-a-simple-g
 
 **-----------------------------------Firebase and Flutter project connectivity----------------------------**
 
-**they made a chat app by max in udemy course. it's in my firevbase/my_chat_app in training folder. The UIs for chat were from shubham in chatgpt. 
+**they made a chat app by max in udemy course. it's in my firevbase/my_chat_app in training folder. The UIs for chat were from shubham in chatgpt. It covered all the 3..authentication, cloud storage and firestore. They added app icon and splash screen also in this. Later added named routes and also used services and providers.
 
 **my reference - Don't do this codelab as it uses firebase UI and goRouter. which setsup with firebase cli and covers authentication and cloud storage but it us... Codelab firebase authentication and firestore - https://firebase.google.com/codelabs/firebase-get-to-know-flutter#4**
 
@@ -281,8 +281,9 @@ You can select either to use an existing Firebase project or to create a new Fir
 My reference - flutter team - https://www.youtube.com/watch?v=DqJ_KjFzL9I
 
 
-**--------------Chat APP-- Gave them this at the end. Very nice app using auth, store, storage, etc-------**
-https://medium.com/flutter-community/building-a-chat-app-with-flutter-and-firebase-from-scratch-9eaa7f41782e
+**--------------Chat APP-- Gave them this at the end to the harshit batch. Very nice app using auth, store, storage, etc. Refer to this for seeing how to use providers and constants in this app bcos max did not use it in his chat app-------**
+https://medium.com/flutter-community/building-a-chat-app-with-flutter-and-firebase-from-scratch-9eaa7f41782e ... link to his code...   https://github.com/duytq94/flutter-chat-demo/tree/master
+  
 my reference - How to build a Chat Messaging UI in Flutter - https://codewithandrea.com/articles/chat-messaging-ui-flutter/
 
 
@@ -312,15 +313,13 @@ https://blog.logrocket.com/implementing-local-notifications-in-flutter/
 
 
 
-**----------------Adding App Icon - I did this whole process with them.---------------------------**
-https://www.youtube.com/watch?v=eMHbgIgJyUQ&list=PL1WkZqhlAdC8uEd4SwmMD8_Bi_oCnwC4I&index=16&t=21s -- nice video...give this
+**----------------Adding App Icon - can do  manually as angela did but now can be done with package.---------------------------**
+https://www.youtube.com/watch?v=eMHbgIgJyUQ&list=PL1WkZqhlAdC8uEd4SwmMD8_Bi_oCnwC4I&index=16&t=21s -- nice video...give this....for android specific shape, go to https://icons.learnpainless.com/icons-launcher.html#foreground.type=clipart&foreground.clipart=android&foreground.space.trim=1&foreground.space.pad=0.25&foreColor=rgba(96%2C%20125%2C%20139%2C%200)&backColor=rgb(68%2C%20138%2C%20255)&crop=0&backgroundShape=circle&effects=none&name=ic_launcher  and create an icon using the clipart. set its padding , size, background color. download it, select it from the downloaded folder and use it in yaml file as shown in video. Its alos tells about changing the app name.
   
 https://blog.logrocket.com/create-adaptive-icons-flutter-launcher-icons/ (using package --can give this too , if needed.. it rightly for both android and ios)...can refer to it
   
 https://medium.com/google-design/designing-adaptive-icons-515af294c783  --- tells how to design icons for different platforms
   
-
-
 https://medium.com/@psyanite/how-to-add-app-launcher-icons-in-flutter-bd92b0e0873a (manually---don't do)
 (FOR MY REFRENCE)
 1. Using the package https://pub.dev/packages/flutter_launcher_icons. Docs from Max udemy. When we have the icons. I shared max's icons
@@ -329,12 +328,34 @@ https://medium.com/@psyanite/how-to-add-app-launcher-icons-in-flutter-bd92b0e087
 
 
 **--------------------Adding the splash screen-------------------------**
-**Using package Does not support animation**
+**Using this package Does not support animation. Points to remember --- **
+  
+  1. It ran on Pixel 2 API 29..Android 10 device. Tested with color and image properties
+  
+  2. Added package from terminal as it had certain version conflicts so this command resolved them
+  
+  3. Used flutter_native_splash: ^2.3.0 version
+  
+  4. first gave command 'flutter clean' to clean the build cache in android folder. Then gave command flutter pub run flutter_native_splash:create
+  
+  5. Restarted the app, it worked
+  
+  6. For android 12 device, i.e api 31, did not test it. but also added it like this with their values
+  
+  android_12:
+    color: 
+    image:
+  
+  7. In order to support the Android 12 SplashScreen API, you need to:
+    Update the Android compileSdkVersion to 31 in the /android/app/build.gradle file, and
+    Update the ext.kotlin_version to the latest Kotlin extension version (1.8.0 at the time of publication) in the /android/build.gradle file.
+ 
 1. package name - https://pub.dev/packages/flutter_native_splash
 2. https://www.youtube.com/watch?v=dB0dOnc2k10 (do this)
+  
+  
 3. For errors in splash screen, check this link
-https://github.com/flutter/samples/tree/main/android_splash_screen/images
-(FOR MY REFERENCE)
+https://github.com/flutter/samples/tree/main/android_splash_screen/images (FOR MY REFERENCE)
 4. **Animated logo on splash screen** ---do only if taught animation - package for animation is also there. we can see blog by log rocket also -  https://blog.logrocket.com/make-splash-screen-flutter/
 5. **Doing manually -- don't do**
 https://docs.flutter.dev/development/ui/advanced/splash-screen?tab=android-splash-alignment-kotlin-tab (official docs)
