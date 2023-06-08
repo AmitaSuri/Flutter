@@ -14,14 +14,15 @@ this one has good videos on maany topics .. https://www.youtube.com/watch?v=MSv3
 9. introduce stateful widgets... building apps with state...slide deck. explain and practice pasing data thru constructors and also callbacks
 10. app building time destiny. 
 11. best practices
-12. theming .. putting constants and textstyles separately
-13. responsive design
-14. navigation. can give angela's bmi app for practice, debugginh...setting break points, dev tools
-15. networking, putting constants and apis separately
-16. forms
-17. native device features
-18. firebase services (authentication, storage, cloude firestore, push notifications)... using all in chat app
-19. building and publishing...in same chat app...explain folder structure in detail, manifest and both gradle files, etc
+12. lifecycle methods, keys thru max todo app
+13. theming .. putting constants and textstyles separately
+14. responsive design
+15. navigation. can give angela's bmi app for practice, debugginh...setting break points, dev tools
+16. networking, putting constants and apis separately
+17. forms
+18. native device features
+19. firebase services (authentication, storage, cloude firestore, push notifications)... using all in chat app
+20. building and publishing...in same chat app...explain folder structure in detail, manifest and both gradle files, etc
 
  
 
