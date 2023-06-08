@@ -154,18 +154,25 @@ https://blog.logrocket.com/how-create-flutter-charts-with-charts-flutter/
 
 
 **------------------------Responsiveness------------------------------------------**
-1. Slide deck
-2. https://www.filledstacks.com/post/the-best-flutter-responsive-ui-pattern/
-https://docs.flutter.dev/cookbook/design/orientation
-**Deven Joshi - Developing for Multiple Screen Sizes and Orientations in Flutter (Fragments in Flutter)** 
-https://medium.com/flutter-community/developing-for-multiple-screen-sizes-and-orientations-in-flutter-fragments-in-flutter-a4c51b849434
-https://medium.com/flutter-community/flutter-web-getting-started-with-responsive-design-231511ef15d3
-https://medium.com/flutter-community/build-responsive-uis-in-flutter-fd450bd59158
-**Very nice article for me explaining adaptive app concepts** https://aloisdeniel.com/#/posts/adaptative-ui
-**Official docs - Adaptive design** - 
+1. **give for understanding Official docs - Adaptive design** -
+
 a. https://docs.flutter.dev/development/ui/layout/adaptive-responsive
+
 b. https://docs.flutter.dev/resources/platform-adaptations
-https://medium.com/flutter-community/flutter-effectively-scale-ui-according-to-different-screen-sizes-2cb7c115ea0a
+
+
+2. **give for practice**
+  a. https://medium.com/flutter-community/developing-for-multiple-screen-sizes-and-orientations-in-flutter-fragments-in-flutter-a4c51b849434
+  b. https://www.filledstacks.com/post/the-best-flutter-responsive-ui-pattern/
+  c. https://docs.flutter.dev/cookbook/design/orientation
+  d. Slide deck
+
+**my ref -- Deven Joshi - Developing for Multiple Screen Sizes and Orientations in Flutter (Fragments in Flutter)** 
+
+a. https://medium.com/flutter-community/flutter-web-getting-started-with-responsive-design-231511ef15d3
+b. https://medium.com/flutter-community/build-responsive-uis-in-flutter-fd450bd59158
+c. verry nice article for me explaining adaptive app concepts** https://aloisdeniel.com/#/posts/adaptative-ui
+
 
 
 **--------------Networking-http package-------------**
@@ -201,17 +208,20 @@ My reference - https://medium.com/theotherdev-s/starting-with-flutter-a-simple-g
 
 **-----------------------------------Firebase and Flutter project connectivity----------------------------**
 
-**they made a chat app by max in udemy course. it's in my firevbase/my_chat_app in training folder. The UIs for chat were from shubham in chatgpt. It covered all the 3..authentication, cloud storage and firestore. They added app icon and splash screen also in this. Later added named routes and also used services and providers.
+**they made a chat app by max in udemy course. it's in my firevbase/my_chat_app in training folder. The UIs for chat were from shubham in chatgpt. It covered all the firebase services..authentication, cloud storage and firestore, push notifications, build and publish. They added app icon and splash screen also in this. Later added named routes and also used services and providers. Can create a provider for all th above tasks .. share this code for reference to see how provider and services and models are used in the chat app- https://github.com/duytq94/flutter-chat-demo/tree/master
+
+
+has all firebase services --- https://medium.com/firebase-tips-tricks/how-to-use-firebase-cloud-messaging-in-flutter-a15ca69ff292... 
 
 **my reference - Don't do this codelab as it uses firebase UI and goRouter. which setsup with firebase cli and covers authentication and cloud storage but it us... Codelab firebase authentication and firestore - https://firebase.google.com/codelabs/firebase-get-to-know-flutter#4**
 
-Firebase offers many services...authentication, cloude storage(for database with many good features), realtime database(database..old), storage(for storing users data like images, etc), etc...reference https://firebase.google.com/docs/firestore/quickstart?authuser=0
+Firebase offers many services...authentication, cloud Firestore(for No Sql database), realtime database(uses relational database sql..old), cloud storage(for storing users data like images, videos, etc), etc.
 
 You can connect your flutter project manually or with cli tools. once tools are installed you dont need to install them again. next time only start with command 'flutterfire configure'
 
 **steps to connect with firebase. This is latest through firebase cli**
 
-1. Create a firebas project ---- from "goto console" tab at this link https://firebase.google.com/docs/flutter/setup?platform=android
+1. Create a firebase project ---- from "goto console" tab at this link https://firebase.google.com/docs/flutter/setup?platform=android
 
 2. Create your flutter app in android studio and connect it to firebase project. Latest is using the Firebase cli... Follow steps at this link. Do till step 3 at this link...https://firebase.google.com/docs/flutter/setup?platform=android......you need to install firbase cli first.....This is needed for flutterfire CLI..The FlutterFire CLI is a useful tool which provides commands to help ease the installation process of FlutterFire across all supported platforms.
 
@@ -241,12 +251,10 @@ You can select either to use an existing Firebase project or to create a new Fir
     runApp(const App());
   }
 }
+ 
+6. Share this link for documentation on all the firebase services.. https://firebase.google.com/docs/build?authuser=0
 
-6. Can create a provider for all th above tasks .. my reference - with provider - https://medium.com/flutter-community/managing-flutter-state-using-provider-e26c78060c26
   
- my reference - ANdrea Designing an Authentication API with Service Classes - https://codewithandrea.com/articles/designing-an-authentication-service-api/
-  
-7. Share this link for documentation on all the firebase services.. https://firebase.flutter.dev/docs/overview
 
 
 **--------------------Authentication Flow with Flutter---------------------------------------**
@@ -283,60 +291,47 @@ You can select either to use an existing Firebase project or to create a new Fir
 My reference - flutter team - https://www.youtube.com/watch?v=DqJ_KjFzL9I
 
 
-**--------------Chat APP-- Gave them this at the end to the harshit batch. Very nice app using auth, store, storage, etc. Refer to this for seeing how to use providers and constants in this app bcos max did not use it in his chat app-------**
-https://medium.com/flutter-community/building-a-chat-app-with-flutter-and-firebase-from-scratch-9eaa7f41782e ... link to his code...   https://github.com/duytq94/flutter-chat-demo/tree/master
-  
-my reference - How to build a Chat Messaging UI in Flutter - https://codewithandrea.com/articles/chat-messaging-ui-flutter/
 
+**---------------------Push Notifications and local notifications -----------------------------------**
+Push notification service has many methods for showing notification in ackground, foreground, just in system tray , as a pop up, pop up with data, etc. So some links talk about these methods while some also tell how we can send the device token through http request so that notifications come on their onwn when some thing change sin database for example a new chat msg came, rather than we testing them in the firebase console by copying pastting the token. Max uses firebase functions for this, but its a paid service. so http request can be made for this.
+  
+  Local notifications are used for some services like showing a pop up, etc(check it)..so the given link uses all
+    
+Give them this to add notifications in the chat app only that is using firebase services..sending notification did not work bcos of API so get one from firebase and use it. his was not working.....https://www.youtube.com/watch?v=AUU6gbDni4Q
+  
+  my refernce..he shows all the methods only...push and local... https://www.youtube.com/watch?v=p7aIZ3aEi2w
 
-
-
-**---------------------Push Notifications-----------------------------------**
-https://medium.com/@duytq94/flutter-chat-app-extended-push-notification-messages-a26c669f4675
+  my reference - https://medium.com/@duytq94/flutter-chat-app-extended-push-notification-messages-a26c669f4675
   
-I gave this..sending notification did not work bcos of API so get obne from firebase and use it. his was not working.....https://www.youtube.com/watch?v=AUU6gbDni4Q
+  my reference - Same chat app above extended with push notification  ... https://medium.com/@duytq94/flutter-chat-app-extended-push-notification-messages-a26c669f4675
   
-https://medium.com/comerge/implementing-push-notifications-in-flutter-apps-aef98451e8f1
-  
-https://fireship.io/lessons/flutter-push-notifications-fcm-guide/
-  
-https://itnext.io/push-notifications-with-firebase-on-flutter-df68cc830c89
-  
-https://blog.logrocket.com/add-flutter-push-notifications-firebase-cloud-messaging/
-  
-Same chat app above extended with push notificationhttps://medium.com/@duytq94/flutter-chat-app-extended-push-notification-messages-a26c669f4675
-  
-https://medium.com/firebase-tips-tricks/how-to-use-firebase-cloud-messaging-in-flutter-a15ca69ff292... has all firebase services
-
-
-**Local Notifications**
-https://nitishk72.medium.com/flutter-local-notification-1e43a353877b
-https://blog.logrocket.com/implementing-local-notifications-in-flutter/
-  https://www.youtube.com/watch?v=bRy5dmts3X8&list=PL1WkZqhlAdC8uEd4SwmMD8_Bi_oCnwC4I&index=23
-  
-
 
   *************** cheatsheet flutter commands***************
   https://medium.com/dhiwise/important-flutter-cli-commands-6ec0845b2237#:~:text=Flutter%20clean,Flutter%20clean%20for%20those%20applications.
   
+  
 
-**----------------Adding App Icon - can do  manually as angela did but now can be done with package.---------------------------**
-https://www.youtube.com/watch?v=eMHbgIgJyUQ&list=PL1WkZqhlAdC8uEd4SwmMD8_Bi_oCnwC4I&index=16&t=21s -- nice video...give this....for android specific shape, go to https://icons.learnpainless.com/icons-launcher.html#foreground.type=clipart&foreground.clipart=android&foreground.space.trim=1&foreground.space.pad=0.25&foreColor=rgba(96%2C%20125%2C%20139%2C%200)&backColor=rgb(68%2C%20138%2C%20255)&crop=0&backgroundShape=circle&effects=none&name=ic_launcher  and create an icon using the clipart. set its padding , size, background color. download it, select it from the downloaded folder and use it in yaml file as shown in video. Its alos tells about changing the app name.
+**----------------Adding App Icon and changing app name- this shalll be part of publishing. refer to flutter official docs...can do  manually as angela did but now can be done with package.---------------------------**
   
-https://blog.logrocket.com/create-adaptive-icons-flutter-launcher-icons/ (using package --can give this too , if needed.. it rightly for both android and ios)...can refer to it
+ Using the package .. share this ... https://www.youtube.com/watch?v=eMHbgIgJyUQ&list=PL1WkZqhlAdC8uEd4SwmMD8_Bi_oCnwC4I&index=16&t=21s -- nice video......for android specific shape, go to https://icons.learnpainless.com/icons-
+  launcher.html#foreground.type=clipart&foreground.clipart=android&foreground.space.trim=1&foreground.space.pad=0.25&foreColor=rgba(96%2C%20125%2C%20139%2C%200)&backColor=rgb(68%2C%20138%2C%20255)&crop=0&backgroundShape=circle&effects=none&name=ic_launcher  and create an icon using the clipart. set its padding , size, background color. download it, select it from the downloaded folder and use it in yaml file as shown in video. Its alos tells about changing the app name.
   
-https://medium.com/google-design/designing-adaptive-icons-515af294c783  --- tells how to design icons for different platforms
-  
-https://medium.com/@psyanite/how-to-add-app-launcher-icons-in-flutter-bd92b0e0873a (manually---don't do)
 (FOR MY REFRENCE)
-1. Using the package https://pub.dev/packages/flutter_launcher_icons. Docs from Max udemy. When we have the icons. I shared max's icons
+1. https://blog.logrocket.com/create-adaptive-icons-flutter-launcher-icons/ (using package --can give this too , if needed.. it rightly for both android and ios)...can refer to it
 2. Manually creating your own icons and using them from angela udemy course using. Remove the previous ones b4 doing this. take any image from google and create icons using android image asset tool. and then add them.
 
 
 
-**--------------------Adding the splash screen-------------------------**
+**--------------------Adding the splash screen--- this shalll be part of publishing. refer to flutter official docs ---------------------**
 **Using this package Does not support animation. Points to remember --- **
+
+  Share thiis...
   
+  1. package name - https://pub.dev/packages/flutter_native_splash
+  
+  2. https://www.youtube.com/watch?v=dB0dOnc2k10 (do this)
+  
+
   1. It ran on Pixel 2 API 29..Android 10 device. Tested with color and image properties
   
   2. Added package from terminal as it had certain version conflicts so this command resolved them
@@ -357,22 +352,34 @@ https://medium.com/@psyanite/how-to-add-app-launcher-icons-in-flutter-bd92b0e087
     Update the Android compileSdkVersion to 31 in the /android/app/build.gradle file, and
     Update the ext.kotlin_version to the latest Kotlin extension version (1.8.0 at the time of publication) in the /android/build.gradle file.
  
-1. package name - https://pub.dev/packages/flutter_native_splash
-2. https://www.youtube.com/watch?v=dB0dOnc2k10 (do this)
-  
   
 3. For errors in splash screen, check this link
-https://github.com/flutter/samples/tree/main/android_splash_screen/images (FOR MY REFERENCE)
-4. **Animated logo on splash screen** ---do only if taught animation - package for animation is also there. we can see blog by log rocket also -  https://blog.logrocket.com/make-splash-screen-flutter/
+my ref... https://github.com/flutter/samples/tree/main/android_splash_screen/images (FOR MY REFERENCE)
+4. **Animated logo on splash screen** ---do only if taught animation - package for animation is also there. we can see blog by log rocket also -  my ref... https://blog.logrocket.com/make-splash-screen-flutter/
 5. **Doing manually -- don't do**
-https://docs.flutter.dev/development/ui/advanced/splash-screen?tab=android-splash-alignment-kotlin-tab (official docs)
+my ref... https://docs.flutter.dev/development/ui/advanced/splash-screen?tab=android-splash-alignment-kotlin-tab (official docs)
 6. **Official docs** - https://docs.flutter.dev/development/ui/advanced/splash-screen 
   
   
 ************************* Building the app ******************************
-https://medium.com/@bernes.dev/deploying-flutter-apps-to-the-playstore-1bd0cce0d15c  
-https://www.youtube.com/watch?v=g0GNuoCOtaQ 
-  https://medium.flutterdevs.com/publishing-flutter-app-to-playstore-fa7543b61a7b
+
+2. Steps : 
+  . Testing - to test it on a variety of devices/screen sizes, older devices based on which devices you need to support and real devices, if possible
+
+2. Optimizations - e.g splitting widgets into smaller widgets, using const constructors, etc.
+
+3. Set application name and identifier
+
+4. Prepare all 3rd party services for production e.g. see that all 3rd party APIs are working, needed permissions are granted, security rules are setup, etc.
+
+5. Add app icon and splash screen
+
+6. Publish to app stores -- it did not publish to playstore as it's a paid service so published on android app store...they could download the app for its appstore and install it but it could not install on mine. But they could not download their app as it takes some time. For this go to official android appstore docs and follow the instructions,. for privacy policy create for free at this link. https://www.privacypolicygenerator.info/ ... while publishing don't opt for test as its for sharing app for testing to ppl who test your app
+  
+7. i have max old videos also in training folder for this.
+
+8. Share this .. https://www.youtube.com/watch?v=g0GNuoCOtaQ ..   Also refer to official docs
+
 
 
 **-----------------------------------Security-------------------------------**
@@ -388,13 +395,23 @@ https://stackoverflow.com/questions/71525025/security-in-flutter-apps
 
 
 **-----------------------------Best practices-----------------------------**
-  https://heyflutter.com/courses/slkfjfACehTdLLgscSRg/LwfWEy28TUGXyItgc8HU
-1. SLide Deck ---  only 2 links
-2. https://somniosoftware.com/post/top-10-flutter-best-practices
-3. Other reference  ---- mostly flutter_lints package rules ----Three part series ----------------------https://itnext.io/flutter-best-practices-part-1-e89467ea4823
+  
+1. Share this .... SLide Deck ---  only 2 links
+  
+2. my ref ... https://heyflutter.com/courses/slkfjfACehTdLLgscSRg/LwfWEy28TUGXyItgc8HU
+
+3. my ref... https://somniosoftware.com/post/top-10-flutter-best-practices
+4. Other reference  ---- mostly flutter_lints package rules ----Three part series ----------------------https://itnext.io/flutter-best-practices-part-1-e89467ea4823
 
 
 
+**--------------Chat APP------**
+Gave them this at the end to the harshit batch. Very nice app using auth, store, storage, etc. Refer to this for seeing how to use providers and constants in this app bcos max did not use it in his chat app-------
+
+  ** https://medium.com/flutter-community/building-a-chat-app-with-flutter-and-firebase-from-scratch-9eaa7f41782e ... link to his code...   https://github.com/duytq94/flutter-chat-demo/tree/master  **
+  
+  
+  
 **------------------------clean architecture--------------------------**
 https://medium.flutterdevs.com/explore-clean-architecture-in-flutter-3fff83e0f1f2
 
@@ -404,9 +421,6 @@ https://medium.flutterdevs.com/explore-clean-architecture-in-flutter-3fff83e0f1f
 https://www.youtube.com/watch?v=h0IbAIHAwnk&list=PLNnAcB93JKV_NIGSneTazb9yMpILapEjo&index=8
 **A Deep Dive Into Widget Testing in Flutter: Part II (Finder and WidgetTester)**
 https://medium.com/flutter-community/a-deep-dive-into-widget-testing-in-flutter-part-ii-finder-and-widgettester-f76f98b87a90
-
-
-
 
 
 
