@@ -1,4 +1,29 @@
 **COURSE REFERENCES (WHEN TEACHING BY SHARING REFERENCES)**
+this one has good videos on maany topics .. https://www.youtube.com/watch?v=MSv38jO4EJk&list=PL1WkZqhlAdC8uEd4SwmMD8_Bi_oCnwC4I&index=20
+
+**Order of topics to be followed:**
+
+1.Introduction to framework and dart, apps made, my webinar, from slide deck
+2. flutter app basics from slide deck..only creating the app and explaining app flow. just tell folder structure randomly only imp files, from beginning only tell to separate myapp home widget in  a separate class and file
+3. Creating custom widgets from slidedeck only stateless widget, explaining everything. adding interactivity. don't do built in widgets right now
+4. introduce dart basics and use it in apps....data types
+5. how to add assets and packages
+6. building uis with flutter widgets...slidedeck. also from official docs..lakeview, etc. 
+7. debugging..using flutter inspector, flutter online, other android features
+8. give them diff simple uis that use diff widgets....row, column, container, expanded, flexible, card listtile, listview, listview builder, etc. introduce dart lists eg.as rajagopi gave to create a hardcoded list and use in listview
+9. introduce stateful widgets... building apps with state...slide deck. explain and practice pasing data thru constructors and also callbacks
+10. app building time destiny. 
+11. best practices
+12. theming .. putting constants and textstyles separately
+13. responsive design
+14. navigation. can give angela's bmi app for practice, debugginh...setting break points, dev tools
+15. networking, putting constants and apis separately
+16. forms
+17. native device features
+18. firebase services (authentication, storage, cloude firestore, push notifications)... using all in chat app
+19. building and publishing...in same chat app...explain folder structure in detail, manifest and both gradle files, etc
+
+ 
 
 **---------------------Ux challenge---------------------------------**
 _Ux challenge using following widgets_ - https://dribbble.com/shots/3466120
@@ -70,25 +95,29 @@ https://medium.com/flutter-community/how-to-use-images-in-flutter-to-the-point-5
 
 **-------------------Stateless and stateful widgets----------------------------**
 1. Slide deck
-2. https://www.divami.com/blog/flutter-life-cycle-methods-and-ui-widget-communication
+2. good reference.. for lifecycle. can share... https://www.divami.com/blog/flutter-life-cycle-methods-and-ui-widget-communication
 
 
 
 **--------------------------Navigation------------------------------**
-1. https://medium.com/flutter/learning-flutters-new-navigation-and-routing-system-7c9068155ade
-1. Slide deck - check different assignments links and see how to go about it. cookbook, pooja bhaumik link, etc.
-2. _Best Practicesin Navigation_ - https://www.filledstacks.com/snippet/clean-navigation-in-flutter-using-generated-routes/
+Now go-router is used. learn and use this
+
+1. How to pass args while navigating, and coming back, willpopscope, all 3 ways of routing...routes object, ongenerateroute() and annonymous routs. max says that annoynymous is preferrred but i think for web apps named routes is not good and web urls variable like id cannot be parsed bot it can be done in the ongenerateroute method. also rajagopi said that go router is used in walkingtree.
+2. they did all the exercises in Slide deck - check different assignments links and see how to go about it. cookbook, pooja bhaumik link, etc.
+5. my ref. new way https://medium.com/flutter/learning-flutters-new-navigation-and-routing-system-7c9068155ade
+6. my ref.. _Best Practicesin Navigation_ - https://www.filledstacks.com/snippet/clean-navigation-in-flutter-using-generated-routes/
 
 
 
 **--------------------------------Theming-----------------------------------**
-1. Slide deck - m1 and m2 - Old way
-2. docs - https://m3.material.io/foundations/design-tokens/overview
-3. https://docs.flutter.dev/cookbook/design/themes
-4. https://www.youtube.com/watch?v=DL0Ix1lnC4w
-5. very good .... Migration - https://blog.codemagic.io/migrating-a-flutter-app-to-material-3
-6. m3 - https://dartling.dev/dynamic-theme-color-material-3-you-flutter
-7. Changing theme dynamically... https://medium.flutterdevs.com/change-dynamically-theme-in-flutter-1f6540528887
+1. Slide deck - m1 and m2 - Old way.. 
+2. Explain what is material design .. for my ref from angela and my webinar
+3. my reff docs - https://m3.material.io/foundations/design-tokens/overview
+4. share this ... https://docs.flutter.dev/cookbook/design/themes ... but tel them how to do it in a separate folder ... ref to max new course
+5. my ref ..https://www.youtube.com/watch?v=DL0Ix1lnC4w
+6. my ref.. very good .... Migration - https://blog.codemagic.io/migrating-a-flutter-app-to-material-3
+7. my ref--- m3 - https://dartling.dev/dynamic-theme-color-material-3-you-flutter
+8. Changing theme dynamically... my ref ..https://medium.flutterdevs.com/change-dynamically-theme-in-flutter-1f6540528887
 
 
 
@@ -106,7 +135,7 @@ https://medium.com/flutter-community/how-to-use-images-in-flutter-to-the-point-5
 2. give for reference https://dhruvnakum.xyz/keys-in-flutter-uniquekey-valuekey-objectkey-pagestoragekey-globalkey
 
 **------------------------------Lifecycle------------------------------------------**
-https://medium.flutterdevs.com/app-lifecycle-in-flutter-c248d894b830(best widget lifecycle)
+give this.. https://medium.flutterdevs.com/app-lifecycle-in-flutter-c248d894b830(best widget lifecycle)
 https://levelup.gitconnected.com/lets-utilize-the-flutter-app-lifecycle-388121533fd9(app lifecycle)
 (FOR MY REFERENCE)
 https://www.bookstack.cn/read/flutterbyexample/aebe8dda4df3319f.md (widget lifecycle...good explanation)
@@ -116,16 +145,21 @@ https://api.flutter.dev/flutter/dart-ui/AppLifecycleState.html (app lifecycle---
 
 
 **----------------------------------Device Features--------------------------------------------**
+
 A.**------------------------------ImagePicker-------------------------------**
-    1. https://blog.logrocket.com/building-an-image-picker-in-flutter/
-    2. slide-deck
-   3. saving files to device  https://retroportalstudio.medium.com/saving-files-to-application-folder-and-gallery-in-flutter-e9be2ebee92a
-   4. 
+
+ 1.do this...slide-deck
+ 2. give for ref .. https://blog.logrocket.com/building-an-image-picker-in-flutter/
+ 3. my ref saving files to device  https://retroportalstudio.medium.com/saving-files-to-application-folder-and-gallery-in-flutter-e9be2ebee92a
+ 4. also check this video .. https://www.youtube.com/watch?v=MSv38jO4EJk&list=PL1WkZqhlAdC8uEd4SwmMD8_Bi_oCnwC4I&index=20
+ 
 B. **-------------------------------------camera------------------------------------**
     1. https://docs.flutter.dev/cookbook/plugins/picture-using-camera
     2. slide deck
+    
 C. **-------------------------------------Phone--------------------------------------**
    1. Slide deck
+   
 D. **---Maps---Do b4 location--Due to null check, APIs have changes--Uber style one is latest--------**   
 1. Deven Joshi - https://medium.com/flutter-community/exploring-google-maps-in-flutter-8a86d3783d24
 2. App where google office data (coordinates) is fetched and plotted on map -  https://codelabs.developers.google.com/codelabs/google-maps-in-flutter#4
@@ -135,12 +169,14 @@ D. **---Maps---Do b4 location--Due to null check, APIs have changes--Uber style 
     c. Flutter Google Map With Live Location Tracking — Uber Style - https://medium.com/flutter-community/flutter-google-map-with-live-location-tracking-uber-style-12da38771829   
     d. Explains how to get nearbyplaces and plot on map. gets user location also
 https://medium.com/flutter-community/building-places-location-search-with-map-view-using-flutter-1-0-alfian-losari-66cacb3bcc24
-E. **---------------------------------Location & GeoCoding---------------------------------**
+
+
+E. **---------------------------------did not do Location & GeoCoding---------------------------------**
     1. https://medium.com/swlh/working-with-geolocation-and-geocoding-in-flutter-and-integration-with-maps-16fb0bc35ede
     
 
 
-**--------------------------------Charts(my link)---------------------------------**
+**--------------------------------not done ..Charts(my link)---------------------------------**
 **for fl_chart package-// preferred**
 https://pub.dev/packages/fl_chart
 https://medium.flutterdevs.com/animated-chart-in-flutter-6f28387f398b
@@ -410,7 +446,8 @@ Gave them this at the end to the harshit batch. Very nice app using auth, store,
 
   ** https://medium.com/flutter-community/building-a-chat-app-with-flutter-and-firebase-from-scratch-9eaa7f41782e ... link to his code...   https://github.com/duytq94/flutter-chat-demo/tree/master  **
   
-  
+** ................clip.........**
+https://www.youtube.com/watch?v=xuatM4pZkNk&list=PL1WkZqhlAdC8uEd4SwmMD8_Bi_oCnwC4I&index=3
   
 **------------------------clean architecture--------------------------**
 https://medium.flutterdevs.com/explore-clean-architecture-in-flutter-3fff83e0f1f2
