@@ -1,7 +1,7 @@
 **COURSE REFERENCES (WHEN TEACHING BY SHARING REFERENCES)**
 this one has good videos on maany topics .. https://www.youtube.com/watch?v=MSv38jO4EJk&list=PL1WkZqhlAdC8uEd4SwmMD8_Bi_oCnwC4I&index=20
 
-**Order of topics to be followed:**
+**Final Course Outline (https://docs.google.com/spreadsheets/d/1IvhkiIOq_Wuc0vSiR3hXT2-PSO7vWq6PgV-xEx6vuEc/edit#gid=0) , Order of topics to be followed:**
 
 1.Introduction to framework and dart, apps made, my webinar, from slide deck
 2. flutter app basics from slide deck..only creating the app and explaining app flow. just tell folder structure randomly only imp files, from beginning only tell to separate myapp home widget in  a separate class and file
@@ -9,20 +9,20 @@ this one has good videos on maany topics .. https://www.youtube.com/watch?v=MSv3
 4. introduce dart basics and use it in apps....data types
 5. how to add assets and packages
 6. building uis with flutter widgets...slidedeck. also from official docs..lakeview, etc. 
-7. debugging..using flutter inspector, flutter online, other android features
+7. debugging..using flutter inspector, flutter online, other android features (https://docs.flutter.dev/testing/debugging, https://developer.android.com/studio/debug https://docs.flutter.dev/testing/oem-debuggers), how to run a code only in debug mode (https://stackoverflow.com/questions/49707028/how-can-i-check-if-a-flutter-application-is-running-in-debug) https://developer.android.com/studio/debug
 8. give them diff simple uis that use diff widgets....row, column, container, expanded, flexible, card listtile, listview, listview builder, etc. introduce dart lists eg.as rajagopi gave to create a hardcoded list and use in listview
 9. introduce stateful widgets... building apps with state...slide deck. explain and practice pasing data thru constructors and also callbacks
 10. app building time destiny. 
-11. best practices
-12. lifecycle methods, keys thru max todo app
+11. best practices, Flutter scalable folder & files structure
+12. lifecycle methods (https://medium.com/flutter-community/widget-state-buildcontext-inheritedwidget-898d671b7956, https://stackoverflow.com/questions/58371874/what-is-the-difference-between-didchangedependencies-and-initstate), keys thru max todo app (https://medium.com/flutter-community/flutter-scalable-folder-files-structure-8f860faafebd)
 13. theming .. putting constants and textstyles separately
-14. responsive design
+14. responsive design 
 15. navigation. can give angela's bmi app for practice, debugginh...setting break points, dev tools
 16. networking, putting constants and apis separately
 17. forms
 18. native device features
 19. firebase services (authentication, storage, cloude firestore, push notifications)... using all in chat app
-20. building and publishing...in same chat app...explain folder structure in detail, manifest and both gradle files, etc
+20. building and publishing...in same chat app...explain folder structure in detail (https://quickcoder.org/flutter-project-structure/) , manifest and both gradle files, etc
 
  
 
@@ -399,8 +399,7 @@ my ref... https://docs.flutter.dev/development/ui/advanced/splash-screen?tab=and
   
   
 ************************* Building the app ******************************
-
-2. Steps : 
+**Steps :** 
   . Testing - to test it on a variety of devices/screen sizes, older devices based on which devices you need to support and real devices, if possible
 
 2. Optimizations - e.g splitting widgets into smaller widgets, using const constructors, etc.
@@ -411,13 +410,59 @@ my ref... https://docs.flutter.dev/development/ui/advanced/splash-screen?tab=and
 
 5. Add app icon and splash screen
 
-6. Publish to app stores -- it did not publish to playstore as it's a paid service so published on android app store...they could download the app for its appstore and install it but it could not install on mine. But they could not download their app as it takes some time. For this go to official android appstore docs and follow the instructions,. for privacy policy create for free at this link. https://www.privacypolicygenerator.info/ ... while publishing don't opt for test as its for sharing app for testing to ppl who test your app
+6. Publish to app stores -- it did not publish to playstore as it's a paid service so published on android app store...they could download the app for its appstore and install it but it could not install on mine. But they could not download their app as it takes some time. For this go to official android appstore docs and follow the instructions,. for privacy policy create for free at this link. https://www.privacypolicygenerator.info/ ... while publishing don't opt for test as its for sharing app for testing to ppl (testers) who test your app. Also make sure that the path to your .jks path in key.properties is relative theapp/build gradle file like ../
   
 7. i have max old videos also in training folder for this.
 
-8. Share this .. https://www.youtube.com/watch?v=g0GNuoCOtaQ ..   Also refer to official docs
+8. Share this .. https://www.youtube.com/watch?v=g0GNuoCOtaQ ..   Also refer to official docs https://docs.flutter.dev/deployment/android
+ 
+**Notes**
+ 1. What is gradle used for? https://stackoverflow.com/questions/16754643/what-is-gradle-in-android-studio
+ 
+  Gradle is a build automation tool known for its flexibility to build software. A build automation tool is used to automate the creation of applications. The building 
+  process includes compiling, linking, and packaging the code. The process becomes more consistent with the help of build automation tools. For ios, Xcode is used
+  Gradle is a build system running on Android Studio. In other languages for example:
 
+  * Ant and Maven of Java
+  * Rake of Ruby
+  * A-A-P of C
+  * NAnt of .NET
+  * Make in Linux
 
+2. **Exploring the Gradle Files**
+
+Whenever you create a project in Android Studio, the build system automatically generates all the necessary Gradle build files.
+Gradle Build Files
+
+Gradle build files use a domain-specific language or DSL to define custom build logic and to interact with the Android-specific elements of the Android plugin for Gradle.
+
+Android Studio projects consists of one or more modules, which are components that you can build, test, and debug independently. Each module has its own build file, so every Android Studio project contains two kinds of Gradle build files.
+
+ * Top-Level Build File: This is where you'll find the configuration options that are common to all the modules that make up your project.
+
+ * Module-Level Build File: Each module has its own Gradle build file that contains module-specific build settings. You'll spend most of your time editing module-level build file(s) rather than your project's top-level build file.
+ 
+3. **Build modes and Build commands** .. https://docs.flutter.dev/testing/build-modes   https://medium.com/meeve/build-variants-in-flutter-for-multiple-backend-environments-7e139128949b
+ 
+  * By default, 'flutter run' compiles to debug mode and runs. Android Studio also provides Run > Debug… menu option, e.g. flutter run --profile , etc
+  * Optionally can give this too ... flutter build --release etc. or flutter build apk --release or flutter build appbundle. The 'flutter build' command defaults to --release.
+  * .apk is android package, .aab is android appbundle extensions. There are other targets also. App store(distribution service) expects app bundle. it then converts to  .apk and installs on the device. 
+ 
+ 4. **Flutter supports common modes like Debug, Release, and Profile with its own features.**
+
+ * Debug Mode: It corresponds to JIT mode of Dart, which is also called check mode or slow mode. This mode supports devices and simulators (iOS/Android) and permits assertion, including all debugging information, service extension, observatory, and other debugging aids. It is optimized for rapid development and operation, but not for execution speed, packet size, and deployment. In Debug mode, the compilation uses JIT technology to support the popular sub-second hot reload.
+ * Release Mode: It corresponds to AOT mode of Dart, with the aim of deployment to end users. This mode only supports physical devices, not simulators. All assertions and debugging tools are restricted, and debugging information is removed as much as possible. It is optimized for quick start, quick execution, and packet size. All debugging aids and service extensions are prohibited.
+ * Profile Mode: It is similar to Release mode while providing more support for service extensions. It also supports tracking and minimizing the dependencies required to use the tracking information. For example, the Observatory can connect to processes. Profile mode does not support simulators because judgments on simulators do not represent true performance.
+ 
+5. **Android Project folder Structure**   https://www.geeksforgeeks.org/android-project-folder-structure/ 
+
+6. **Configure your build** https://developer.android.com/build
+ 
+7. Appbundle format https://developer.android.com/guide/app-bundle/app-bundle-format 
+ 
+8. diff project and module in android (https://stackoverflow.com/questions/17187080/android-studio-new-project-vs-new-module/67763434#67763434) 
+ 
+ 
 
 **-----------------------------------Security-------------------------------**
 https://docs.flutter.dev/security
