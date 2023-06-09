@@ -24,7 +24,30 @@ this one has good videos on maany topics .. https://www.youtube.com/watch?v=MSv3
 19. firebase services (authentication, storage, cloude firestore, push notifications)... using all in chat app
 20. building and publishing...in same chat app...explain folder structure in detail (https://quickcoder.org/flutter-project-structure/) , manifest and both gradle files, etc
 
+**...........Difference between expanded and flexible...........**
+
+ * https://stackoverflow.com/questions/52645944/flutter-expanded-vs-flexible#:~:text=Flexible%20default%20will%20share%20the,to%20fill%20the%20available%20space
+ * https://stackoverflow.com/questions/52645944/flutter-expanded-vs-flexible
+ * https://levelup.gitconnected.com/expanded-vs-flexible-flutter-b0eb4b251a36
+
+
+**........use of assert...................**
+
+ * https://www.w3schools.io/languages/dart-assert/
+ * https://www.geeksforgeeks.org/assert-statements-in-dart/
+
+
+**...............Images....................**
+
+ * https://medium.com/innovation-incubator/flutter-6-excellent-ways-to-implement-image-widget-69a845d1269e
+ * https://medium.com/flutter-community/how-to-add-images-to-your-flutter-application-242926d98fdc
  
+ 
+**.............Using memory image...............**
+
+ * https://flutterforyou.com/how-to-show-image-from-base64-in-flutter/
+ * https://www.fluttercampus.com/guide/224/convert-image-to-base64/
+
 
 **---------------------Ux challenge---------------------------------**
 _Ux challenge using following widgets_ - https://dribbble.com/shots/3466120
