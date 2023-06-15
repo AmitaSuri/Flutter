@@ -484,8 +484,22 @@ Android Studio projects consists of one or more modules, which are components th
 7. Appbundle format https://developer.android.com/guide/app-bundle/app-bundle-format 
  
 8. diff project and module in android (https://stackoverflow.com/questions/17187080/android-studio-new-project-vs-new-module/67763434#67763434) 
+
  
- 
+**----------------------Unit  Testing andrea--------------------**
+
+1. official docs.. https://docs.flutter.dev/testing/testing-plugins
+2. cookbook... https://docs.flutter.dev/cookbook/testing/unit/introduction
+3. mock dependencies... https://docs.flutter.dev/cookbook/testing/unit/mocking
+4. widget testing.. https://docs.flutter.dev/cookbook/testing/widget/introduction
+
+
+
+**A Deep Dive Into Widget Testing in Flutter: Part II (Finder and WidgetTester)**
+1. my ref.. https://medium.com/flutter-community/a-deep-dive-into-widget-testing-in-flutter-part-ii-finder-and-widgettester-f76f98b87a90
+2. my ref..andrea... https://www.youtube.com/watch?v=h0IbAIHAwnk&list=PLNnAcB93JKV_NIGSneTazb9yMpILapEjo&index=8
+3. my ref...Udemy - stephen
+
 
 **-----------------------------------Security-------------------------------**
 https://docs.flutter.dev/security
@@ -523,10 +537,6 @@ https://medium.flutterdevs.com/explore-clean-architecture-in-flutter-3fff83e0f1f
 
 
 
-**----------------------Unit  Testing andrea--------------------**
-https://www.youtube.com/watch?v=h0IbAIHAwnk&list=PLNnAcB93JKV_NIGSneTazb9yMpILapEjo&index=8
-**A Deep Dive Into Widget Testing in Flutter: Part II (Finder and WidgetTester)**
-https://medium.com/flutter-community/a-deep-dive-into-widget-testing-in-flutter-part-ii-finder-and-widgettester-f76f98b87a90
 
 
 
