@@ -485,13 +485,31 @@ Android Studio projects consists of one or more modules, which are components th
  
 8. diff project and module in android (https://stackoverflow.com/questions/17187080/android-studio-new-project-vs-new-module/67763434#67763434) 
 
+
+**...............................Localization--------------------**
+
+1. https://phrase.com/blog/posts/flutter-localization/#Shared_State_InheritedWidget
+2. https://phrase.com/blog/posts/flutter-localization/
+3. https://medium.com/@echolaojue/how-to-make-l10n-with-flutter-fd61e21e61d8
+
+
+**..............................................Swithing Themes..............................**
+1.https://medium.flutterdevs.com/change-dynamically-theme-in-flutter-1f6540528887
+2. https://www.flutterant.com/switching-themes-in-flutter-apps/
+3. https://blog.logrocket.com/dynamic-theme-switcher-flutter/
+4. https://stackoverflow.com/questions/54757480/flutter-dynamic-theming
+5. https://medium.com/@thetechawesome/flutter-dynamic-theme-ee0889c688bc
+
  
-**----------------------Unit  Testing andrea--------------------**
+**----------------------Unit  Testing--------------------**
 
 1. official docs.. https://docs.flutter.dev/testing/testing-plugins
 2. cookbook... https://docs.flutter.dev/cookbook/testing/unit/introduction
 3. mock dependencies... https://docs.flutter.dev/cookbook/testing/unit/mocking
 4. widget testing.. https://docs.flutter.dev/cookbook/testing/widget/introduction
+5. https://codewithandrea.com/articles/async-tests-streams-flutter/
+6. https://blog.logrocket.com/unit-testing-flutter-code-mockito/
+7. https://invertase.io/blog/assertions-in-dart-and-flutter-tests-an-ultimate-cheat-sheet/
 
 
 
