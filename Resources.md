@@ -130,6 +130,12 @@ Now go-router is used. learn and use this
 2. they did all the exercises in Slide deck - check different assignments links and see how to go about it. cookbook, pooja bhaumik link, etc.
 5. my ref. new way https://medium.com/flutter/learning-flutters-new-navigation-and-routing-system-7c9068155ade
 6. my ref.. _Best Practicesin Navigation_ - https://www.filledstacks.com/snippet/clean-navigation-in-flutter-using-generated-routes/
+7. ************go_router*********************
+8. https://pub.dev/documentation/go_router/latest/topics/Configuration-topic.html
+9. https://medium.com/@antonio.tioypedro1234/flutter-go-router-the-essential-guide-349ef39ec5b3
+10. https://medium.flutterdevs.com/navigate-with-gorouter-in-flutter-4a135f813d98
+11.  https://blog.codemagic.io/flutter-go-router-guide/
+12. https://mobikul.com/gorouter-in-flutter/
 
 
 
