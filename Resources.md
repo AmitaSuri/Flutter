@@ -136,6 +136,7 @@ Now go-router is used. learn and use this
 10. https://medium.flutterdevs.com/navigate-with-gorouter-in-flutter-4a135f813d98
 11.  https://blog.codemagic.io/flutter-go-router-guide/
 12. https://mobikul.com/gorouter-in-flutter/
+13. https://blog.devgenius.io/guide-to-go-router-flutter-1ddcfa56d39c
 
 
 
