@@ -715,7 +715,8 @@ https://stackoverflow.com/questions/67667071/understanding-bang-operator-in-dart
 **zero to one with flutter**
 https://medium.com/flutter/zero-to-one-with-flutter-43b13fd7b354
 
-
+**Nice tutorials**
+https://www.youtube.com/@thetechbrotherss/playlists
 
 
 
