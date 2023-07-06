@@ -517,7 +517,7 @@ Android Studio projects consists of one or more modules, which are components th
 4. https://www.youtube.com/watch?v=mxTW020pyuc ... business logic ..rivaan ranavat ... good
 5. https://www.youtube.com/watch?v=6usqzoKYXag -- testing widgets...good
 6. widget testing.. https://docs.flutter.dev/cookbook/testing/widget/introduction
-7. https://www.youtube.com/watch?v=hUAUAkIZmX0&t=34s ---reso coder
+7. https://www.youtube.com/watch?v=hUAUAkIZmX0&t=34s ---reso coder...very good on other aspects than rivaan...give after rivaan's videos are done
 8. https://codewithandrea.com/articles/async-tests-streams-flutter/
 9. https://www.youtube.com/watch?v=n21w5T3jdWE --- filled stack
 10. https://www.youtube.com/watch?v=Kq-YMAE1ssA --- filled stack
