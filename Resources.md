@@ -725,5 +725,7 @@ https://medium.com/flutter/zero-to-one-with-flutter-43b13fd7b354
 **Nice tutorials**
 https://www.youtube.com/@thetechbrotherss/playlists
 
+**Andrea My Favourite List of Flutter Resources** https://medium.com/coding-with-flutter/my-favourite-list-of-flutter-resources-523adc611cbe
+
 
 
