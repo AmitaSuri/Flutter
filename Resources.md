@@ -1,5 +1,6 @@
 **COURSE REFERENCES (WHEN TEACHING BY SHARING REFERENCES)**
 
+* Datatables...https://blog.logrocket.com/flutter-datatable-widget-guide-displaying-data/
 * this one has good videos on maany topics .. https://www.youtube.com/watch?v=MSv38jO4EJk&list=PL1WkZqhlAdC8uEd4SwmMD8_Bi_oCnwC4I&index=20
 * general understanding using charts....https://medium.com/dartlang/zero-to-one-with-flutter-43b13fd7b354
 * Flutter 3 ....https://medium.com/flutter/whats-new-in-flutter-3-10-b21db2c38c73...demoapp on theme etc...https://github.com/flutter/samples/tree/main/material_3_demo
